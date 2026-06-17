@@ -267,3 +267,36 @@ body[data-page="home"] .site-nav a[data-nav="home"] { color: var(--primary, #1f6
   border-color: rgba(217, 140, 63, .45);
   background: #fff8ef;
 }
+
+
+/* Sprint 6A.10 LOGO/EVC additions */
+body[data-page="logo"] .site-nav a[data-nav="logo"],
+body[data-page="evc"] .site-nav a[data-nav="evc"],
+body[data-page="tijdlijn"] .site-nav a[data-nav="routes"] {
+  color: var(--primary, #1f6f68);
+}
+.timeline {
+  display: grid;
+  gap: 1rem;
+}
+.timeline-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: .75rem 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 18px;
+  background: #fff;
+}
+.timeline-item span {
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--primary, #1f6f68);
+  color: #fff;
+  font-weight: 900;
+}
+.timeline-item h3 { margin: 0; }
+.timeline-item p { grid-column: 2; margin: 0; }
