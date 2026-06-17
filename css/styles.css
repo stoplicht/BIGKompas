@@ -410,3 +410,62 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
 }
 .table-card { overflow-x: auto !important; overflow-y: visible !important; }
 .comparison-table { overflow: visible !important; }
+
+
+/* Sprint 6A.14 polish: charts, routes, normalised labels */
+.route-flow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 18px;
+  background: #fff;
+}
+.route-flow a {
+  text-decoration: none;
+  font-weight: 800;
+  padding: .45rem .65rem;
+  border-radius: 999px;
+  background: #f7f4ee;
+}
+.stuwmeer-chart {
+  display: grid;
+  gap: 1rem;
+  margin: 1.2rem 0;
+}
+.bar-row {
+  display: grid;
+  grid-template-columns: minmax(210px, 320px) 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.bar-row span { font-weight: 750; }
+.bar-bg {
+  background: #eee8df;
+  border-radius: 999px;
+  overflow: hidden;
+  min-height: 2.2rem;
+}
+.bar-fill {
+  min-width: 4.2rem;
+  height: 2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: .75rem;
+  border-radius: 999px;
+  background: var(--primary, #1f6f68);
+  color: #fff;
+  font-weight: 900;
+}
+.bar-fill.small { background: #b86b38; }
+.bar-fill.mid { background: #d99a4e; }
+.canary-card h3,
+.canary-card p {
+  font-size: inherit;
+}
+@media (max-width: 760px) {
+  .bar-row { grid-template-columns: 1fr; }
+}
