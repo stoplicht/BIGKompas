@@ -43,3 +43,7 @@ Canary:
 - Tijdlijn uitgebreid met betekenis voor BIG-loze psychologen
 - Reacties van NIP en andere partijen toegevoegd
 - Belasting van GZ-psychologen toegevoegd
+
+### 6A.17 — Build 0020
+- Kennisknoppen-sectie verwijderd
+- Voorbereiding Tijdlijn 2.0
