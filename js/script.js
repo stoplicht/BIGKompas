@@ -101,3 +101,13 @@ filterChips.forEach((chip) => {
 });
 
 initTimeline();
+
+
+// Sluit mobiele navigatie met Escape en maak tooltips bruikbaar via toetsenbord.
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape') {
+    nav?.classList.remove('open');
+    toggle?.setAttribute('aria-expanded', 'false');
+    document.activeElement?.blur?.();
+  }
+});
