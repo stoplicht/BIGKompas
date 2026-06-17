@@ -300,3 +300,48 @@ body[data-page="tijdlijn"] .site-nav a[data-nav="routes"] {
 }
 .timeline-item h3 { margin: 0; }
 .timeline-item p { grid-column: 2; margin: 0; }
+
+
+/* Sprint 6A.11 timeline, links and homepage hover additions */
+.metric-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 14px;
+  padding: .55rem;
+  transition: transform .15s ease, background .15s ease;
+}
+.metric-link:hover { transform: translateY(-1px); background: rgba(255,255,255,.55); }
+.info-hover { position: relative; cursor: help; }
+.info-hover:hover::after,
+.info-hover:focus::after {
+  content: attr(data-tip);
+  position: absolute;
+  z-index: 30;
+  left: 50%;
+  bottom: 105%;
+  transform: translateX(-50%);
+  min-width: 260px;
+  max-width: 360px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #17202a;
+  color: #fff;
+  box-shadow: var(--shadow, 0 16px 36px rgba(0,0,0,.16));
+  font-size: .9rem;
+  line-height: 1.45;
+  text-align: left;
+}
+.link-card { text-decoration: none; color: inherit; }
+.link-card:hover { transform: translateY(-2px); }
+.cards.five { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+body[data-page="tijdlijn"] .site-nav a[data-nav="tijdlijn"],
+body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
+  color: var(--primary, #1f6f68);
+}
+@media (max-width: 1000px) {
+  .cards.five { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 640px) {
+  .cards.five { grid-template-columns: 1fr; }
+}
