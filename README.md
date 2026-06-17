@@ -47,3 +47,12 @@ Canary:
 ### 6A.17 — Build 0020
 - Kennisknoppen-sectie verwijderd
 - Voorbereiding Tijdlijn 2.0
+
+
+### 6A.19 — Build 0022
+- Herstelrelease op basis van oude stabiele versie
+- Homepage-main hersteld uit Sprint 6A.14-bron
+- Trust-strip/losse kennisknoppen verwijderd
+- Canary-regels verwijderd
+- Cache-busting bijgewerkt naar Build 0022
+- Stabiele basis voor verdere tab-voor-tab kwaliteitsverbetering

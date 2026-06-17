@@ -1,0 +1,68 @@
+{
+  "index.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 9821,
+    "cur_size": 2716
+  },
+  "routes.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 7440,
+    "cur_size": 7319
+  },
+  "tijdlijn.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 7651,
+    "cur_size": 8636
+  },
+  "logo.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 9626,
+    "cur_size": 9505
+  },
+  "evc.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 10110,
+    "cur_size": 9989
+  },
+  "vergelijking.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 24475,
+    "cur_size": 4050
+  },
+  "big.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 5152,
+    "cur_size": 5031
+  },
+  "zpm.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 6400,
+    "cur_size": 6279
+  },
+  "capaciteitsbeleid.html": {
+    "old_exists": true,
+    "cur_exists": true,
+    "old_size": 6495,
+    "cur_size": 6687
+  },
+  "missie.html": {
+    "old_exists": false,
+    "cur_exists": true,
+    "old_size": 0,
+    "cur_size": 5956
+  },
+  "oplossingen.html": {
+    "old_exists": false,
+    "cur_exists": true,
+    "old_size": 0,
+    "cur_size": 7542
+  }
+}
