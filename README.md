@@ -32,3 +32,9 @@ Canary:
 ### 6A.12 — Build 0015
 - Cache-busting toegevoegd
 - Bronnenlinks toegevoegd
+
+
+### 6A.15 — Build 0018
+- Canary systeem verwijderd
+- Voorbereiding uitbreiding BIG, EVC en tijdlijn
+- Voorbereiding belasting GZ-psychologen sectie
