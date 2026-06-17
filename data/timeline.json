@@ -1,62 +1,38 @@
 [
   {
-    "jaar": "2010–2011",
+    "jaar": "1997",
+    "type": "wet",
+    "titel": "Wet BIG treedt in werking",
+    "samenvatting": "De Wet BIG vormt de basis voor beschermde titels, registratie, tuchtrecht en bevoegdheden in de individuele gezondheidszorg.",
+    "bronhouder": "Overheid / BIG-register",
+    "impact": "Legt de basis voor het huidige registratiestelsel en de publieke controleerbaarheid van zorgverleners.",
+    "link": "https://www.bigregister.nl/"
+  },
+  {
+    "jaar": "2022",
+    "type": "besluit",
+    "titel": "Invoering Zorgprestatiemodel",
+    "samenvatting": "Het Zorgprestatiemodel wordt gebruikt voor bekostiging van grote delen van de GGZ en forensische zorg.",
+    "bronhouder": "Zorgprestatiemodel",
+    "impact": "Maakt rollen, prestaties, declaraties en regiebehandelaarschap extra relevant voor beroepspositie en registratie.",
+    "link": "https://www.zorgprestatiemodel.nl/"
+  },
+  {
+    "jaar": "2024-2026",
     "type": "advies",
-    "titel": "Startpunt structurele capaciteitsraming",
-    "samenvatting": "Capaciteitsorgaan brengt ramingen uit voor psychologische BIG-beroepen, waaronder de GZ-psycholoog.",
-    "bronhouder": "Capaciteitsorgaan",
-    "impact": "Landelijke raming wordt basis voor latere beleidskeuzes.",
-    "bronstatus": "Vervang algemene link door directe link naar het betreffende capaciteitsplan.",
+    "titel": "Discussie over opleidingscapaciteit GZ-psychologen",
+    "samenvatting": "Capaciteitsadviezen, beschikbare opleidingsplaatsen en de instroom in de GZ-opleiding blijven onderwerp van debat.",
+    "bronhouder": "Capaciteitsorgaan / VWS / opleidingsveld",
+    "impact": "Bepaalt mede hoeveel masterpsychologen kunnen doorstromen naar de eerste BIG-registratie binnen de psychologie.",
     "link": "https://capaciteitsorgaan.nl/"
-  },
-  {
-    "jaar": "2021",
-    "type": "onderzoek",
-    "titel": "Nivel brengt het stuwmeer in beeld",
-    "samenvatting": "Onderzoek laat zien dat duizenden LOGO-gekwalificeerde kandidaten nog niet zijn ingestroomd in de GZ-opleiding.",
-    "bronhouder": "Nivel",
-    "impact": "Hard bewijs voor het gat tussen geschikte kandidaten en opleidingsplaatsen.",
-    "bronstatus": "Directe onderzoekspublicatie toevoegen zodra gecontroleerd.",
-    "link": "https://www.nivel.nl/"
-  },
-  {
-    "jaar": "2023",
-    "type": "advies",
-    "titel": "Advies voor forse uitbreiding GZ-instroom",
-    "samenvatting": "Capaciteitsadvies wijst op hogere benodigde instroom in de opleiding tot GZ-psycholoog.",
-    "bronhouder": "Capaciteitsorgaan",
-    "impact": "Onderbouwing voor beleidsdiscussie over opschaling.",
-    "bronstatus": "Cijfer en planperiode controleren in het originele rapport.",
-    "link": "https://capaciteitsorgaan.nl/"
-  },
-  {
-    "jaar": "2023–2024",
-    "type": "lobby",
-    "titel": "Veldpartijen vragen om volgen capaciteitsadvies",
-    "samenvatting": "Beroepsorganisaties en veldpartijen vragen politieke aandacht voor de kloof tussen advies en bekostigde plekken.",
-    "bronhouder": "NIP / P3NL / FGzPt / veldpartijen",
-    "impact": "Politieke druk neemt toe; besluitvorming blijft onderwerp van discussie.",
-    "bronstatus": "Voeg directe link naar brief of nieuwsbericht toe.",
-    "link": "https://nip.nl/"
-  },
-  {
-    "jaar": "2024–2025",
-    "type": "kamer",
-    "titel": "Kamerstukken over GZ-opleiding en positie van psychologen",
-    "samenvatting": "Kamerstukken en antwoorden raken aan opleidingscapaciteit, toegankelijkheid en positie van beroepsgroepen.",
-    "bronhouder": "Tweede Kamer / VWS",
-    "impact": "Maakt de beleidskeuzes en argumentatie controleerbaar.",
-    "bronstatus": "Gebruik directe links via Officiële Bekendmakingen.",
-    "link": "https://zoek.officielebekendmakingen.nl/"
   },
   {
     "jaar": "2026",
-    "type": "besluit",
-    "titel": "Beschikte opleidingsplaatsen blijven lager dan advies",
-    "samenvatting": "De beschikbare opleidingsplaatsen blijven onderwerp van discussie zolang advies, bekostiging en feitelijke instroom uit elkaar lopen.",
-    "bronhouder": "VWS / opleidingsveld",
-    "impact": "Kernpunt voor BIGKompas: verschil tussen behoefte, advies en uitvoering zichtbaar maken.",
-    "bronstatus": "Exact besluit en cijfer controleren voor publicatie.",
-    "link": "https://www.rijksoverheid.nl/"
+    "type": "onderzoek",
+    "titel": "BIGKompas bundelt bronnen en begrippen",
+    "samenvatting": "Het platform ordent uitleg over BIG, routes, AGB, ZPM en de positie van psychologen zonder BIG-registratie.",
+    "bronhouder": "BIGKompas",
+    "impact": "Biedt een startpunt voor een controleerbaar en neutraal kennisdossier.",
+    "link": "bronnen.html"
   }
 ]
