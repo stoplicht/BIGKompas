@@ -38,3 +38,8 @@ Canary:
 - Canary systeem verwijderd
 - Voorbereiding uitbreiding BIG, EVC en tijdlijn
 - Voorbereiding belasting GZ-psychologen sectie
+
+### 6A.16 — Build 0019
+- Tijdlijn uitgebreid met betekenis voor BIG-loze psychologen
+- Reacties van NIP en andere partijen toegevoegd
+- Belasting van GZ-psychologen toegevoegd
