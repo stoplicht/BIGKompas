@@ -188,3 +188,40 @@ h3 { font-size: 1.25rem; letter-spacing: -.015em; }
   .comparison-table { font-size: .92rem; }
   .comparison-table th, .comparison-table td { padding: 12px; }
 }
+
+
+/* Sprint 6A additions */
+.info-tip {
+  display: inline-grid;
+  place-items: center;
+  width: 1.35em;
+  height: 1.35em;
+  margin-left: .25rem;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: #f7f4ee;
+  color: var(--primary);
+  font-weight: 900;
+  cursor: help;
+  position: relative;
+}
+.info-tip:hover::after,
+.info-tip:focus::after {
+  content: attr(data-tip);
+  position: absolute;
+  z-index: 20;
+  left: 50%;
+  bottom: 140%;
+  transform: translateX(-50%);
+  min-width: 240px;
+  max-width: 340px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #17202a;
+  color: #fff;
+  box-shadow: var(--shadow);
+  font-size: .9rem;
+  line-height: 1.45;
+  text-align: left;
+}
+body[data-page="vergelijking"] .site-nav a[data-nav="vergelijking"] { color: var(--primary); }
