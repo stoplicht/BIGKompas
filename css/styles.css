@@ -190,20 +190,21 @@ h3 { font-size: 1.25rem; letter-spacing: -.015em; }
 }
 
 
-/* Sprint 6A additions */
+/* Sprint 6A.3 additions */
 .info-tip {
   display: inline-grid;
   place-items: center;
   width: 1.35em;
   height: 1.35em;
   margin-left: .25rem;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line, #ddd);
   border-radius: 50%;
   background: #f7f4ee;
-  color: var(--primary);
+  color: var(--primary, #1f6f68);
   font-weight: 900;
   cursor: help;
   position: relative;
+  font-size: .75rem;
 }
 .info-tip:hover::after,
 .info-tip:focus::after {
@@ -219,9 +220,33 @@ h3 { font-size: 1.25rem; letter-spacing: -.015em; }
   border-radius: 14px;
   background: #17202a;
   color: #fff;
-  box-shadow: var(--shadow);
+  box-shadow: var(--shadow, 0 16px 36px rgba(0,0,0,.16));
   font-size: .9rem;
   line-height: 1.45;
   text-align: left;
 }
-body[data-page="vergelijking"] .site-nav a[data-nav="vergelijking"] { color: var(--primary); }
+body[data-page="vergelijking"] .site-nav a[data-nav="vergelijking"],
+body[data-page="home"] .site-nav a[data-nav="home"] { color: var(--primary, #1f6f68); }
+.tag {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: .18rem .55rem;
+  font-weight: 800;
+  font-size: .82rem;
+}
+.tag.yes { background: #e7f4ef; color: #14634f; }
+.tag.no { background: #fff0e6; color: #8a4a10; }
+.clean-list {
+  margin: .7rem 0 0;
+  padding-left: 1.1rem;
+}
+.clean-list li { margin-bottom: .35rem; }
+.callout {
+  margin-top: 1.4rem;
+  padding: 1.3rem 1.4rem;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f3faf8, #fff8ef);
+  border: 1px solid var(--line, #ddd);
+}
+.callout h3 { margin-top: 0; }
