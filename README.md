@@ -9,8 +9,8 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.29  
-Build: 0032  
+Sprint: 6A.30  
+Build: 0033  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
@@ -146,7 +146,6 @@ Datum: 18-06-2026
 - Ondernemerschap toegevoegd.
 - Wist-u-dat kader toegevoegd.
 
-### 6A.29 — Build 0032
-- Stuwmeer visualisatie toegevoegd.
+### 6A.30 — Build 0033
 - Capaciteitstabel verwijderd uit Stuwmeer.
-- Voorbereiding Tijdlijn beleidsdossier.
+- Eerste beleidsdossier toegevoegd aan Tijdlijn.
