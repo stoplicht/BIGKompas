@@ -652,11 +652,24 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
 
 
 /* Sprint 6A.31 stuwmeer infographic polish */
+
+
+/* Sprint 6A.35 final stuwmeer metafoor layout */
+#metafoor {
+  padding-bottom: 2rem;
+}
+#metafoor + #omvang,
+#metafoor + .section {
+  padding-top: 2rem;
+}
+.metafoor-image {
+  margin: 1.5rem 0 0;
+}
 .metafoor-image img {
   max-width: 1100px;
   width: 100%;
   display: block;
-  margin: 2rem auto;
+  margin: 0 auto;
   border-radius: 24px;
   box-shadow: 0 8px 30px rgba(0,0,0,.10);
 }

@@ -9,11 +9,19 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.34  
-Build: 0037  
+Sprint: 6A.35  
+Build: 0038  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
+
+### 6A.35 — Build 0038
+- Stuwmeer-metafoorsectie opgeschoond
+- Dubbele zin onder de afbeelding verwijderd
+- Afbeelding onder de tekst geplaatst en gecentreerd
+- Witruimte tussen metafoor en omvang verkleind
+- Cache-busting bijgewerkt naar Build 0038
+
 
 ### 6A.31 — Build 0034
 - Waterbouw/Psychologenstuwmeer-tabel verwijderd uit Stuwmeer
