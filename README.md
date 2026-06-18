@@ -9,8 +9,8 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.28  
-Build: 0031  
+Sprint: 6A.29  
+Build: 0032  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
@@ -145,3 +145,8 @@ Datum: 18-06-2026
 - Arbeidsmarktsectie toegevoegd aan Stuwmeer.
 - Ondernemerschap toegevoegd.
 - Wist-u-dat kader toegevoegd.
+
+### 6A.29 — Build 0032
+- Stuwmeer visualisatie toegevoegd.
+- Capaciteitstabel verwijderd uit Stuwmeer.
+- Voorbereiding Tijdlijn beleidsdossier.
