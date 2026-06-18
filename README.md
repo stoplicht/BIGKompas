@@ -9,11 +9,19 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.36  
-Build: 0039  
+Sprint: 6A.38  
+Build: 0041  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
+
+### 6A.38 — Build 0041
+- Tijdlijn volledig herbouwd als beleidsdossier
+- Per gebeurtenis doel, praktijkuitwerking, betekenis en bronlinks toegevoegd
+- Reacties van NIP, FGzPt, P3NL en veldpartijen verwerkt
+- Effecten voor BIG-lozen, GZ-psychologen, instellingen en patiënten toegevoegd
+- Cache-busting bijgewerkt naar Build 0041
+
 
 ### 6A.31 — Build 0034
 - Waterbouw/Psychologenstuwmeer-tabel verwijderd uit Stuwmeer
