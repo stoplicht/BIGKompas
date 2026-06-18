@@ -4,9 +4,9 @@ BIGKompas is een onafhankelijk kennisplatform over het psychologenstuwmeer en de
 
 ## Versiebeheer
 
-Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.55  
-Build: 0058  
+Huidige versie: BIGKompas v1.0-beta
+Sprint: 6A.56  
+Build: 0059  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
@@ -60,3 +60,7 @@ Datum: 18-06-2026
 Upload bij voorkeur alleen de inhoud van dit pakket naar de root van de GitHub-repository.
 
 Laat oude ZIP-bestanden en losse sprint-README's weg. Als die al in GitHub staan, verwijder ze bij voorkeur eerst handmatig of via GitHub Desktop.
+
+### 6A.56 — Build 0059
+- Version recovery uitgevoerd.
+- Homepage-footer, README en cache-busting gesynchroniseerd.
