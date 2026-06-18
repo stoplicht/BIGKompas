@@ -62,3 +62,7 @@ Canary:
 - Homepage: zichtbare ⓘ-icoontjes toegevoegd bij deskundigheid, doorstroom, autonomie en regie
 - Tooltip-uitleg toegevoegd bij de vier kernbegrippen
 - Cache-busting bijgewerkt naar Build 0023
+
+### 6A.21 — Build 0024
+- Capaciteit geïntegreerd in Stuwmeer-tab
+- Navigatie vereenvoudigd
