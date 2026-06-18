@@ -15,6 +15,14 @@ Datum: 18-06-2026
 
 ## Releasegeschiedenis
 
+### 6A.24 — Build 0027
+- Stuwmeer en capaciteit samengevoegd onder de Stuwmeer-tab (`probleem.html`)
+- Capaciteit verwijderd uit de hoofdnavigatie
+- Capaciteitsgrafiek, kerncijfers en bronnen geïntegreerd in Stuwmeer
+- `capaciteitsbeleid.html` omgezet naar doorverwijspagina voor oude links
+- Cache-busting bijgewerkt naar Build 0027
+
+
 ### 6A.23 — Build 0026
 - Footer-versie beperkt tot homepage (`index.html`)
 - Overige tabs tonen alleen de normale footer zonder buildnummer
