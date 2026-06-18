@@ -15,6 +15,12 @@ Datum: 18-06-2026
 
 ## Releasegeschiedenis
 
+### 6A.23 — Build 0026
+- Footer-versie beperkt tot homepage (`index.html`)
+- Overige tabs tonen alleen de normale footer zonder buildnummer
+- Cache-busting bijgewerkt naar Build 0026
+
+
 ### 6A.22 — Build 0025
 - Releasegeschiedenis opgeschoond en opnieuw gesynchroniseerd
 - Footer-versie bijgewerkt naar Build 0025
