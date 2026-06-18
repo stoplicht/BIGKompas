@@ -9,8 +9,8 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.27  
-Build: 0030  
+Sprint: 6A.28  
+Build: 0031  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
@@ -140,3 +140,8 @@ Datum: 18-06-2026
 
 ### 6A.27 — Build 0030
 - Uitleg toegevoegd over de metafoor 'psychologenstuwmeer'.
+
+### 6A.28 — Build 0031
+- Arbeidsmarktsectie toegevoegd aan Stuwmeer.
+- Ondernemerschap toegevoegd.
+- Wist-u-dat kader toegevoegd.
