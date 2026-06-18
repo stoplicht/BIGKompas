@@ -590,3 +590,62 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     min-height: 1rem;
   }
 }
+
+
+/* Sprint 6A.26 afbouwscenario stuwmeer */
+.scenario-card {
+  display: grid;
+  gap: 1.2rem;
+  margin: 1.4rem 0;
+}
+.scenario-summary {
+  background: #fff;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 22px;
+  padding: 1.2rem 1.35rem;
+}
+.line-chart {
+  display: grid;
+  gap: .7rem;
+  background: #fff;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 22px;
+  padding: 1.2rem 1.35rem;
+}
+.chart-row {
+  display: grid;
+  grid-template-columns: 5rem 1fr;
+  gap: .8rem;
+  align-items: center;
+}
+.chart-row > span {
+  font-weight: 800;
+  font-size: .95rem;
+}
+.chart-track {
+  background: #eee8df;
+  border-radius: 999px;
+  overflow: hidden;
+  min-height: 1.85rem;
+}
+.chart-bar {
+  height: 1.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: .65rem;
+  border-radius: 999px;
+  background: var(--primary, #1f6f68);
+  color: #fff;
+  font-weight: 900;
+  min-width: 2.6rem;
+}
+.chart-bar.empty {
+  background: #b86b38;
+}
+@media (max-width: 640px) {
+  .chart-row {
+    grid-template-columns: 1fr;
+    gap: .35rem;
+  }
+}

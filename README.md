@@ -9,11 +9,19 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.22  
-Build: 0025  
+Sprint: 6A.26  
+Build: 0029  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
+
+### 6A.26 — Build 0029
+- Illustratief afbouwscenario toegevoegd aan Stuwmeer
+- Grafiek toegevoegd: afname van ±6500 bij 691 opleidingsplaatsen per jaar
+- Scenariotabel toegevoegd: 691, 1240 en 1500 opleidingsplaatsen
+- Footer-versie bijgewerkt op homepage
+- Cache-busting bijgewerkt naar Build 0029
+
 
 ### 6A.25 — Build 0028
 - Metadata van Stuwmeer-pagina gecorrigeerd
