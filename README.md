@@ -15,6 +15,14 @@ Datum: 18-06-2026
 
 ## Releasegeschiedenis
 
+### 6A.25 — Build 0028
+- Metadata van Stuwmeer-pagina gecorrigeerd
+- Stuwmeer-monitor toegevoegd aan homepage
+- Stuwmeer-pagina uitgebreid met duidelijkere monitor/grafiek
+- Reacties en beleidsdiscussie aangescherpt
+- Cache-busting bijgewerkt naar Build 0028
+
+
 ### 6A.24 — Build 0027
 - Stuwmeer en capaciteit samengevoegd onder de Stuwmeer-tab (`probleem.html`)
 - Capaciteit verwijderd uit de hoofdnavigatie
