@@ -9,8 +9,8 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.41  
-Build: 0044  
+Sprint: 6A.42  
+Build: 0045  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
@@ -164,3 +164,7 @@ Datum: 18-06-2026
 ### 6A.30 — Build 0033
 - Capaciteitstabel verwijderd uit Stuwmeer.
 - Eerste beleidsdossier toegevoegd aan Tijdlijn.
+
+### 6A.42 — Build 0045
+- Navigatie/header hersteld op pagina Oplossingsrichtingen.
+- Footer en cache-busting gesynchroniseerd.
