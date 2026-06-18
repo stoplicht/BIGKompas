@@ -712,3 +712,70 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     justify-self: start;
   }
 }
+
+
+/* Sprint 6A.47 oplossingen polish */
+.solution-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1.5fr;
+  gap: 1rem;
+  align-items: center;
+}
+.flow-node, .flow-stack, .solution-card {
+  background: #fff;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 22px;
+  padding: 1rem 1.1rem;
+  box-shadow: 0 8px 26px rgba(0,0,0,.04);
+}
+.flow-node {
+  font-weight: 900;
+}
+.flow-node span {
+  display:block;
+  font-weight:500;
+  color: var(--muted, #5c6873);
+}
+.flow-node.strong {
+  background: var(--primary, #1f6f68);
+  color: #fff;
+}
+.flow-node.strong span {
+  color: rgba(255,255,255,.82);
+}
+.flow-arrow {
+  font-size: 2rem;
+  font-weight: 950;
+  color: var(--primary, #1f6f68);
+}
+.flow-stack {
+  display: grid;
+  gap: .45rem;
+}
+.flow-stack span {
+  display: block;
+  padding: .45rem .65rem;
+  border-radius: 999px;
+  background: #f3efe8;
+  font-weight: 750;
+}
+.solution-grid {
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:1rem;
+}
+.solution-badge {
+  display:grid;
+  place-items:center;
+  width:2rem;
+  height:2rem;
+  border-radius:999px;
+  background:var(--primary,#1f6f68);
+  color:#fff;
+  font-weight:950;
+  margin-bottom:.7rem;
+}
+@media (max-width:850px) {
+  .solution-flow,.solution-grid { grid-template-columns:1fr; }
+  .flow-arrow { transform:rotate(90deg); justify-self:center; }
+}
