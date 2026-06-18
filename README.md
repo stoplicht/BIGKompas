@@ -5,8 +5,8 @@ BIGKompas is een onafhankelijk kennisplatform over het psychologenstuwmeer en de
 ## Versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.54  
-Build: 0057  
+Sprint: 6A.55  
+Build: 0058  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
