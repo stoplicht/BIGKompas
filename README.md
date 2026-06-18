@@ -4,65 +4,106 @@
 
 ---
 
+---
+
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.14  
-Build: 0017  
+Sprint: 6A.22  
+Build: 0025  
 Datum: 18-06-2026  
-
-Canary:
-"Stuwmeergrafiek toont 6500 LOGO-houders tegenover 691 opleidingsplaatsen."
 
 ## Releasegeschiedenis
 
-### 6A.14 — Build 0017
-- Oude canary-verwijzingen in pagina-inhoud opgeschoond
-- GZ-opleidingsroute overzichtelijker herbouwd
-- Capaciteitsbeleid uitgebreid met cijfers en grafische stuwmeer-weergave
-- LOGO-voorwaarden concreter uitgewerkt
-- ZPM-pagina sterker gekoppeld aan positie van psychologen zonder BIG
-- Tijdlijn gekoppeld aan capaciteitsgrafiek
+### 6A.22 — Build 0025
+- Releasegeschiedenis opgeschoond en opnieuw gesynchroniseerd
+- Footer-versie bijgewerkt naar Build 0025
+- Cache-busting bijgewerkt naar Build 0025
+- Geen inhoudelijke wijzigingen aan pagina’s
 
-### 6A.13 — Build 0016
-- LOGO-pagina uitgebreid met actuele vooropleidingseisen
-- EVC-pagina uitgebreid
-- Tijdlijn uitgebreid
+### 6A.21 — Build 0024
+- Capaciteit uit de hoofdnavigatie gehaald
+- Capaciteitsinformatie samengevoegd onder de Stuwmeer-tab
+- Informatiearchitectuur vereenvoudigd rond de centrale vraag: het psychologenstuwmeer
 
-### 6A.12 — Build 0015
-- Cache-busting toegevoegd
-- Bronnenlinks toegevoegd
+### 6A.20 — Build 0023
+- Homepage: zichtbare ⓘ-icoontjes toegevoegd bij deskundigheid, doorstroom, autonomie en regie
+- Tooltip-uitleg toegevoegd bij de vier kernbegrippen
+- Cache-busting bijgewerkt
 
+### 6A.19 — Build 0022
+- Herstelrelease op basis van oude stabiele versie
+- Complete homepage-inhoud teruggezet
+- Trust-strip/losse kennisknoppen verwijderd
+- Canary-regels verwijderd
 
-### 6A.15 — Build 0018
-- Canary systeem verwijderd
-- Voorbereiding uitbreiding BIG, EVC en tijdlijn
-- Voorbereiding belasting GZ-psychologen sectie
+### 6A.18 — Build 0021
+- Missiepagina toegevoegd
+- Oplossingsrichtingen-tab toegevoegd
+- GZ-route visueel herbouwd
+- LOGO 110 EC/12 rubrieken verder uitgewerkt
+- Tijdlijn 2.0 toegevoegd
+- Sectie over belasting van GZ-psychologen toegevoegd
+
+### 6A.17 — Build 0020
+- Losse kennisknoppen-sectie verwijderd
+- Voorbereiding Tijdlijn 2.0
 
 ### 6A.16 — Build 0019
 - Tijdlijn uitgebreid met betekenis voor BIG-loze psychologen
 - Reacties van NIP en andere partijen toegevoegd
 - Belasting van GZ-psychologen toegevoegd
 
-### 6A.17 — Build 0020
-- Kennisknoppen-sectie verwijderd
-- Voorbereiding Tijdlijn 2.0
+### 6A.15 — Build 0018
+- Canary-systeem verwijderd
+- Voorbereiding uitbreiding BIG, EVC en tijdlijn
+- Voorbereiding belasting GZ-psychologen
 
+### 6A.14 — Build 0017
+- Oude canary-verwijzingen opgeschoond
+- GZ-opleidingsroute overzichtelijker gemaakt
+- Capaciteitsbeleid uitgebreid met cijfers en grafische stuwmeer-weergave
+- LOGO-voorwaarden concreter uitgewerkt
+- ZPM sterker gekoppeld aan de positie van psychologen zonder BIG
 
-### 6A.19 — Build 0022
-- Herstelrelease op basis van oude stabiele versie
-- Homepage-main hersteld uit Sprint 6A.14-bron
-- Trust-strip/losse kennisknoppen verwijderd
-- Canary-regels verwijderd
-- Cache-busting bijgewerkt naar Build 0022
-- Stabiele basis voor verdere tab-voor-tab kwaliteitsverbetering
+### 6A.13 — Build 0016
+- LOGO-pagina uitgebreid met vooropleidingseisen
+- EVC-pagina uitgebreid met werkwijze, scenario’s, deelnemers, evaluatie en stopzetting
+- Tijdlijn uitgebreid met capaciteitsadviezen, ministeriële besluiten en veldreacties
+- Tijdlijn-jaartallen leesbaar gemaakt
+- Tooltip-positionering robuuster gemaakt
 
+### 6A.12 — Build 0015
+- Cache-busting toegevoegd
+- Bronlinks toegevoegd op EVC- en LOGO-pagina
+- Routes-pagina inhoudelijk uitgebreid per stap
+- Tooltip-clipping in tabellen aangepakt
 
-### 6A.20 — Build 0023
-- Homepage: zichtbare ⓘ-icoontjes toegevoegd bij deskundigheid, doorstroom, autonomie en regie
-- Tooltip-uitleg toegevoegd bij de vier kernbegrippen
-- Cache-busting bijgewerkt naar Build 0023
+### 6A.11 — Build 0014
+- Tijdlijn uitgebreid met opleiding, BIG-instroom, LOGO, EVC, ZPM en capaciteitsbeleid
+- Nieuwe pagina capaciteitsbeleid toegevoegd
+- Homepage-hoverinfo bij deskundigheid, doorstroom, autonomie en regie toegevoegd
+- Bestuurlijke doelgroep expliciet benoemd
 
-### 6A.21 — Build 0024
-- Capaciteit geïntegreerd in Stuwmeer-tab
-- Navigatie vereenvoudigd
+### 6A.10 — Build 0013
+- LOGO-pagina toegevoegd
+- EVC-pagina toegevoegd
+- Tijdlijn uitgebreid met LOGO en EVC
+- Vergelijking uitgebreid met LOGO/EVC-blok
+- Navigatie uitgebreid met LOGO en EVC
+
+### 6A.9 — Build 0012
+- Voorbereiding LOGO/EVC-onderdelen
+
+### 6A.8 — Build 0011
+- README-versiebeheer en changelog toegevoegd
+
+### 6A.7 — Build 0010
+- Proportionaliteit toegevoegd
+
+### 6A.6 — Build 0009
+- Consequenties toegevoegd
+
+### 6A.5 — Build 0008
+- Autonomie toegevoegd
+- Footer-versiebeheer toegevoegd
