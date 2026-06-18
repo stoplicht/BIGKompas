@@ -137,3 +137,6 @@ Datum: 18-06-2026
 ### 6A.5 — Build 0008
 - Autonomie toegevoegd
 - Footer-versiebeheer toegevoegd
+
+### 6A.27 — Build 0030
+- Uitleg toegevoegd over de metafoor 'psychologenstuwmeer'.
