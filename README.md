@@ -5,11 +5,18 @@ BIGKompas is een onafhankelijk kennisplatform over het psychologenstuwmeer en de
 ## Versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.48  
-Build: 0051  
+Sprint: 6A.49  
+Build: 0052  
 Datum: 18-06-2026  
 
 ## Releasegeschiedenis
+
+### 6A.49 — Build 0052
+- Arbeidsmarkt toegevoegd aan hoofdnavigatie
+- Arbeidsmarkt-pagina voorzien van normale header, menu en footer
+- Homepage-footer gesynchroniseerd naar Build 0052
+- Cache-busting bijgewerkt naar Build 0052
+
 
 ### 6A.47 — Build 0050
 - Oplossingsrichtingen verder verdiept

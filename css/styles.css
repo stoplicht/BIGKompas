@@ -779,3 +779,10 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
   .solution-flow,.solution-grid { grid-template-columns:1fr; }
   .flow-arrow { transform:rotate(90deg); justify-self:center; }
 }
+
+
+/* Sprint 6A.49 arbeidsmarkt nav active */
+body[data-page="arbeidsmarkt"] .site-nav a[data-nav="arbeidsmarkt"] {
+  color: var(--primary, #1f6f68);
+  font-weight: 900;
+}
