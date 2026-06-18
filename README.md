@@ -56,3 +56,9 @@ Canary:
 - Canary-regels verwijderd
 - Cache-busting bijgewerkt naar Build 0022
 - Stabiele basis voor verdere tab-voor-tab kwaliteitsverbetering
+
+
+### 6A.20 — Build 0023
+- Homepage: zichtbare ⓘ-icoontjes toegevoegd bij deskundigheid, doorstroom, autonomie en regie
+- Tooltip-uitleg toegevoegd bij de vier kernbegrippen
+- Cache-busting bijgewerkt naar Build 0023

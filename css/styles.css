@@ -469,3 +469,42 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
 @media (max-width: 760px) {
   .bar-row { grid-template-columns: 1fr; }
 }
+
+
+/* Sprint 6A.20 homepage info icons */
+.home-info-tip {
+  display: inline-grid;
+  place-items: center;
+  width: 1.25em;
+  height: 1.25em;
+  margin-left: .25rem;
+  border: 1px solid rgba(23, 32, 42, .25);
+  border-radius: 50%;
+  background: rgba(255,255,255,.72);
+  color: var(--primary, #1f6f68);
+  font-weight: 900;
+  font-size: .78em;
+  line-height: 1;
+  cursor: help;
+  position: relative;
+}
+.home-info-tip:hover::after,
+.home-info-tip:focus::after {
+  content: attr(data-tip);
+  position: fixed;
+  z-index: 99999;
+  left: 50%;
+  top: 18vh;
+  transform: translateX(-50%);
+  width: min(420px, calc(100vw - 40px));
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: #17202a;
+  color: #fff;
+  box-shadow: var(--shadow, 0 16px 36px rgba(0,0,0,.16));
+  font-size: .92rem;
+  line-height: 1.45;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
