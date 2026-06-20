@@ -1823,3 +1823,7 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     background: rgba(31,111,104,.10) !important;
   }
 }
+
+.influx-card95{grid-column:1/-1;background:#fff;border:1px solid var(--line,#ddd);border-radius:24px;padding:1.15rem}
+.mini-table{width:100%;border-collapse:collapse;margin:.8rem 0}
+.mini-table th,.mini-table td{padding:.45rem;border-bottom:1px solid #ddd;text-align:left}
