@@ -1947,3 +1947,36 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
   background: var(--primary, #1f6f68) !important;
   color: #fff !important;
 }
+
+
+/* Sprint 6A.98 / Build 0102 home CTA refinement */
+.home-inline-actions {
+  margin-top: 1.65rem;
+}
+.inline-arrow-link {
+  color: var(--primary, #1f6f68);
+  font-weight: 850;
+  text-decoration: none;
+}
+.inline-arrow-link:hover {
+  text-decoration: underline;
+}
+.compare-disciplines-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .7rem;
+}
+.inline-link-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  border-radius: 999px;
+  background: var(--primary, #1f6f68);
+  color: #fff;
+  font-weight: 900;
+  flex: 0 0 auto;
+}
+.home-inline-actions .inline-arrow-link {
+  font-size: 1.02rem;
+}
