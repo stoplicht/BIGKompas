@@ -1933,3 +1933,17 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     margin-right: 1rem !important;
   }
 }
+
+
+/* Sprint 6A.96 / Build 0100 stuwmeer focus */
+.gevolgen-ref .section-heading {
+  max-width: 900px;
+}
+.gevolgen-teaser {
+  max-width: 760px;
+}
+.gevolgen-teaser .button,
+.gevolgen-teaser .button.primary {
+  background: var(--primary, #1f6f68) !important;
+  color: #fff !important;
+}
