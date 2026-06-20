@@ -639,3 +639,45 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
 .info-icon:focus::after {
   opacity: 1;
 }
+
+
+/* Sprint 6A.69: restore info icons in original BIGKompas-vraag block */
+.info-icon {
+  display: inline-grid;
+  place-items: center;
+  width: 1.15rem;
+  height: 1.15rem;
+  margin-left: .35rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--primary, #1f6f68);
+  color: var(--primary, #1f6f68);
+  font-size: .78rem;
+  font-weight: 900;
+  line-height: 1;
+  cursor: help;
+  position: relative;
+  vertical-align: middle;
+}
+.info-icon::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + .65rem);
+  transform: translateX(-50%);
+  width: min(24rem, 80vw);
+  padding: .75rem .85rem;
+  background: #15202b;
+  color: #fff;
+  border-radius: 14px;
+  font-size: .88rem;
+  line-height: 1.35;
+  font-weight: 500;
+  box-shadow: 0 12px 30px rgba(0,0,0,.18);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 20;
+}
+.info-icon:hover::after,
+.info-icon:focus::after {
+  opacity: 1;
+}
