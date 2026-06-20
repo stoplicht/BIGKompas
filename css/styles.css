@@ -1798,3 +1798,28 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     print-color-adjust: exact !important;
   }
 }
+
+
+/* Sprint 6A.92 / Build 0096 final stuwmeer polish */
+.info-dot95 {
+  position: relative;
+}
+.info-dot95[title] {
+  text-decoration: none;
+}
+@media print {
+  .nav-toggle,
+  .site-nav,
+  .site-header .nav-toggle {
+    display: none !important;
+  }
+  .site-header {
+    justify-content: flex-start !important;
+  }
+}
+@media screen {
+  .info-dot95:hover,
+  .info-dot95:focus {
+    background: rgba(31,111,104,.10) !important;
+  }
+}
