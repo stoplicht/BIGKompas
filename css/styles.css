@@ -1006,3 +1006,38 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
 .compact-cards.cards.five{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1rem}.compact-cards .info-card{min-height:0}.myth-grid2{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem}.myth-grid2 article{background:#fff;border:1px solid var(--line2);border-radius:18px;padding:1rem;box-shadow:0 8px 26px rgba(0,0,0,.035)}
 .source-note{font-size:.9rem;color:#53606c}.source-note a{font-weight:850}.solution-teaser{max-width:1180px}
 @media(max-width:1000px){.stuwmeer-hero2,.omvang-grid,.capacity-layout,.compact-cards.cards.five,.myth-grid2{grid-template-columns:1fr}.chain{grid-template-columns:1fr}.chain b{display:none}.scenario-row{grid-template-columns:1fr}.scenario-row span{text-align:left}.image-links{position:static;color:inherit;text-shadow:none}.image-links a{color:var(--brand)}}
+
+
+/* Build 0091 clean polish */
+.stuwmeer-hero2,
+.stuwmeer-image-section {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-panel h1 {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
+.mini-chart .mini-bar-row {
+  gap: 6px;
+}
+.vertical-chain {
+  display: flex !important;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+}
+.vertical-chain b {
+  transform: rotate(90deg);
+  display: inline-block;
+  align-self: center;
+  color: var(--brand, #1f6f68);
+}
+.vertical-chain span {
+  min-width: 0;
+}
+.actor-table-hidden {
+  display: none !important;
+}
