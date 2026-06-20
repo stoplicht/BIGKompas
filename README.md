@@ -101,3 +101,8 @@ Canary:
 - Tijdlijn uitgebreid met betekenis voor BIG-loze psychologen
 - Reacties van NIP en andere partijen toegevoegd
 - Belasting van GZ-psychologen toegevoegd
+
+### 6A.76 - Build 0079
+- Capaciteit inhoudelijk verdiept.
+- Gevolgen uitgebreid.
+- Kernboodschappen vervangen Stuwmeer in één oogopslag.
