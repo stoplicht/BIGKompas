@@ -1906,3 +1906,30 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     print-color-adjust: exact !important;
   }
 }
+
+
+/* Sprint 6A.95 / Build 0099 hero left alignment */
+.stuwmeer-hero2,
+.hero-grid,
+.dossier-hero,
+.hero-stats-grid {
+  margin-left: clamp(1rem, 4vw, 4rem) !important;
+  margin-right: auto !important;
+}
+.stuwmeer-hero2 {
+  max-width: 1320px !important;
+}
+@media (min-width: 1100px) {
+  .stuwmeer-hero2 {
+    transform: none !important;
+  }
+}
+@media (max-width: 950px) {
+  .stuwmeer-hero2,
+  .hero-grid,
+  .dossier-hero,
+  .hero-stats-grid {
+    margin-left: 1rem !important;
+    margin-right: 1rem !important;
+  }
+}
