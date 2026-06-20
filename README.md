@@ -7,14 +7,22 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.71  
-Build: 0074  
+Sprint: 6A.72  
+Build: 0075  
 Datum: 18-06-2026  
 
 Canary:
 "Stuwmeergrafiek toont 6500 LOGO-houders tegenover 691 opleidingsplaatsen."
 
 ## Releasegeschiedenis
+
+### 6A.72 — Build 0075
+- Stuwmeer-tab hersteld en uitgebreid
+- Capaciteitsinformatie opnieuw geïntegreerd in Stuwmeer
+- Capaciteitsbeleid-pagina verwijst door naar Stuwmeer#capaciteit
+- Gevolgen, scenario's en oplossingsrichtingen binnen Stuwmeer verduidelijkt
+- Home blijft inhoudelijk ongewijzigd en voorlopig locked
+
 
 ### 6A.71 — Build 0074
 - Homepage trust-strip met Wet BIG/GZ-opleiding/ZPM/AGB/Capaciteitsbeleid verwijderd
