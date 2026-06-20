@@ -1571,3 +1571,230 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
 .source-note a{color:var(--primary,#1f6f68)!important;font-weight:850}
 .mini-bar-row,.scale-row{grid-template-columns:15rem 5rem 1fr!important}
 .process-list94 strong,.process-list94 strong .info-dot94{vertical-align:middle}
+
+
+/* Sprint 6A.91 / Build 0095 REAL stuwmeer polish */
+.stuwmeer-redesign a,
+.stuwmeer-block a,
+.source-note a,
+.myth-grid2 a,
+.info-card a {
+  color: var(--primary, #1f6f68) !important;
+  font-weight: 850;
+}
+.metafoor-left .image-overlay-text,
+.stuwmeer-image-section .image-overlay-text {
+  max-width: 950px !important;
+}
+.metafoor-left .image-overlay-text p,
+.stuwmeer-image-section .image-overlay-text p {
+  max-width: 950px !important;
+}
+.mini-chart .mini-bar-row,
+.scale-row {
+  display: grid !important;
+  grid-template-columns: minmax(13rem, 1.2fr) 5.5rem minmax(7rem, 1fr) !important;
+  align-items: center !important;
+  gap: .45rem !important;
+  margin: .55rem 0 !important;
+}
+.mini-chart .mini-bar-row strong,
+.scale-label {
+  align-self: center !important;
+  margin: 0 !important;
+}
+.mini-chart .mini-bar-row span,
+.scale-row span {
+  align-self: center !important;
+  margin: 0 !important;
+  font-weight: 850 !important;
+}
+.mini-chart .mini-bar-row i,
+.scale-track {
+  grid-column: auto !important;
+  align-self: center !important;
+  margin: 0 !important;
+  height: .78rem !important;
+  min-height: .78rem !important;
+  display: block !important;
+  border-radius: 999px !important;
+}
+.capacity-92,
+.capacity-93,
+.capacity-94 {
+  display: none !important;
+}
+.capacity-95 .section-heading {
+  max-width: 900px !important;
+}
+.capacity-95-grid {
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: minmax(320px, .92fr) minmax(420px, 1.08fr);
+  grid-template-areas:
+    "chain enough"
+    "scenario scenario";
+  gap: 1rem;
+  align-items: start;
+}
+.capacity-card {
+  background: #fff;
+  border: 1px solid var(--line, #ded8ce);
+  border-radius: 24px;
+  padding: 1.15rem;
+  box-shadow: 0 8px 26px rgba(0,0,0,.045);
+}
+.chain-card95 { grid-area: chain; }
+.enough-card95 { grid-area: enough; }
+.scenario-95 { grid-area: scenario; }
+.small-muted {
+  color: var(--muted, #68717a);
+  margin-top: -.25rem;
+}
+.process-list95 {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: grid;
+  gap: .55rem;
+}
+.process-list95 li {
+  display: grid;
+  grid-template-columns: 2.35rem 1fr;
+  gap: .65rem;
+  align-items: center;
+  padding: .65rem .75rem;
+  border: 1px solid var(--line, #ded8ce);
+  border-radius: 16px;
+  background: #fff;
+}
+.process-list95 .num {
+  width: 1.9rem;
+  height: 1.9rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(31,111,104,.10);
+  color: var(--primary, #1f6f68);
+  font-weight: 950;
+}
+.process-list95 strong {
+  display: inline-flex;
+  align-items: center;
+  gap: .32rem;
+}
+.process-list95 small {
+  display: block;
+  color: var(--muted, #68717a);
+  margin-top: .08rem;
+  line-height: 1.25;
+}
+.info-dot95 {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--primary, #1f6f68);
+  color: var(--primary, #1f6f68);
+  background: #fff;
+  font-size: .72rem;
+  line-height: 1;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  cursor: help;
+}
+.enough-card95 li {
+  margin: .58rem 0;
+}
+.enough-card95 a,
+.scenario-95 a {
+  color: var(--primary, #1f6f68) !important;
+  font-weight: 850;
+}
+.scenario-95 .scenario-row {
+  display: grid !important;
+  grid-template-columns: 11rem 1fr 5.7rem !important;
+  gap: 1rem !important;
+  align-items: center !important;
+  margin: .75rem 0 !important;
+}
+.scenario-95 .scenario-row i {
+  display: block !important;
+  height: .85rem !important;
+  min-height: .85rem !important;
+  border-radius: 999px !important;
+}
+.scenario-95 .scenario-row .s1 { background: #b85c38 !important; }
+.scenario-95 .scenario-row .s2 { background: #d4a017 !important; }
+.scenario-95 .scenario-row .s3 { background: #1f6f68 !important; }
+.scenario-95 .scenario-row .s4 { background: #3b6fb6 !important; }
+.scenario-95 .scenario-row span {
+  text-align: right !important;
+  font-weight: 900 !important;
+}
+.scenario-conclusion {
+  margin-top: 1rem;
+  padding: .85rem 1rem;
+  border-radius: 16px;
+  background: rgba(31,111,104,.08);
+}
+.solution-teaser .button,
+.solution-teaser .button.primary {
+  opacity: 1 !important;
+  background: var(--primary, #1f6f68) !important;
+  color: #fff !important;
+}
+.solution-teaser .button::after,
+.solution-teaser .button.primary::after {
+  content: "" !important;
+}
+@media(max-width: 950px) {
+  .capacity-95-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "chain"
+      "enough"
+      "scenario";
+  }
+  .mini-chart .mini-bar-row,
+  .scale-row {
+    grid-template-columns: minmax(10rem, 1fr) 5rem minmax(5rem, 1fr) !important;
+  }
+}
+@media(max-width: 650px) {
+  .mini-chart .mini-bar-row,
+  .scale-row,
+  .scenario-95 .scenario-row {
+    grid-template-columns: 1fr !important;
+  }
+  .scenario-95 .scenario-row span {
+    text-align: left !important;
+  }
+}
+@media print {
+  .scenario-95 .scenario-row {
+    display: grid !important;
+    grid-template-columns: 10rem 1fr 5rem !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+  .scenario-95 .scenario-row i,
+  .mini-chart .mini-bar-row i {
+    display: block !important;
+    min-height: .8rem !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  .scenario-95 .scenario-row .s1 { background: #b85c38 !important; }
+  .scenario-95 .scenario-row .s2 { background: #d4a017 !important; }
+  .scenario-95 .scenario-row .s3 { background: #1f6f68 !important; }
+  .scenario-95 .scenario-row .s4 { background: #3b6fb6 !important; }
+  .solution-teaser .button,
+  .solution-teaser .button.primary {
+    background: var(--primary, #1f6f68) !important;
+    color: #fff !important;
+    opacity: 1 !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+}

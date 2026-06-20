@@ -17,6 +17,17 @@ Canary:
 
 ## Releasegeschiedenis
 
+### 6A.91 — Build 0095
+- Echte HTML/CSS rebuild van de stuwmeerpagina op basis van Build 0094
+- Metafoorintro verbreed en inhoudelijk aangescherpt
+- Omvangbalken op één baseline gezet
+- Capaciteitsblok opnieuw opgebouwd: smallere ketenkaart, bredere uitlegkaart en uitgebreidere toelichting
+- Selectieprocedures toegevoegd als extra bottleneck
+- Afbouwscenario intact gehouden met uitgebreidere conclusie en printfix
+- CTA-tekst aangescherpt
+- Footer, README en cache-busting gesynchroniseerd
+
+
 ### 6A.90 — Build 0094
 - Capaciteitsblok gerepareerd en rustiger gemaakt
 - Tooltips vervangen door stabiele i-symbolen zonder zichtbare CSS-lekkage
