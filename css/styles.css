@@ -1980,3 +1980,127 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
 .home-inline-actions .inline-arrow-link {
   font-size: 1.02rem;
 }
+
+
+/* Sprint 6A.99 / Build 0104 BIGKompas-vraag card redesign */
+.hero-card-alt {
+  padding: clamp(1.35rem, 2.6vw, 2.2rem);
+}
+.hero-card-alt .metric {
+  margin: 1.55rem 0 1.4rem;
+}
+.hero-card-alt .metric > span {
+  display: block;
+  color: #385062;
+  margin-bottom: .35rem;
+}
+.hero-card-alt .metric strong {
+  font-size: clamp(2.35rem, 4.1vw, 4.2rem);
+  line-height: 1.02;
+  letter-spacing: -.06em;
+}
+.hero-card-alt .metric strong em {
+  color: var(--primary, #1f6f68);
+  font-style: normal;
+}
+.hero-card-alt .source-note {
+  max-width: 760px;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: #385062;
+}
+.metric-grid-alt {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line, #ded8ce);
+}
+.metric-grid-alt .metric-tile {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  gap: .35rem;
+  padding: 1.25rem 1rem;
+  border-right: 1px solid var(--line, #ded8ce);
+}
+.metric-grid-alt .metric-tile:last-child {
+  border-right: 0;
+}
+.metric-grid-alt .metric-icon {
+  display: grid;
+  place-items: center;
+  width: 3.25rem;
+  height: 3.25rem;
+  margin-bottom: .45rem;
+  border-radius: 999px;
+  background: rgba(31, 111, 104, .10);
+  font-size: 1.45rem;
+}
+.metric-grid-alt .metric-title {
+  color: var(--ink, #17202a);
+  font-weight: 900;
+}
+.metric-grid-alt .metric-tile strong {
+  font-size: clamp(1.85rem, 2.7vw, 2.75rem);
+  line-height: 1;
+  letter-spacing: -.04em;
+}
+.metric-grid-alt .metric-tile small {
+  display: block;
+  margin-top: .6rem;
+  color: #385062;
+  line-height: 1.45;
+}
+.metric-grid-alt .tile-deskundigheid strong { color: var(--primary, #1f6f68); }
+.metric-grid-alt .tile-doorstroom strong { color: #c94a33; }
+.metric-grid-alt .tile-autonomie strong { color: #d18718; }
+.metric-grid-alt .tile-regie strong { color: #7152aa; }
+.card-cta-strip {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1.35rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(31,111,104,.16);
+  border-radius: 18px;
+  background: linear-gradient(135deg, rgba(31,111,104,.07), rgba(255,255,255,.76));
+}
+.card-cta-strip p {
+  margin: 0;
+  color: #385062;
+}
+.card-cta-strip a {
+  color: var(--primary, #1f6f68);
+  font-weight: 900;
+  white-space: nowrap;
+}
+@media (max-width: 1050px) {
+  .metric-grid-alt {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .metric-grid-alt .metric-tile:nth-child(2) {
+    border-right: 0;
+  }
+  .metric-grid-alt .metric-tile:nth-child(-n+2) {
+    border-bottom: 1px solid var(--line, #ded8ce);
+  }
+}
+@media (max-width: 650px) {
+  .metric-grid-alt {
+    grid-template-columns: 1fr;
+  }
+  .metric-grid-alt .metric-tile {
+    border-right: 0;
+    border-bottom: 1px solid var(--line, #ded8ce);
+  }
+  .metric-grid-alt .metric-tile:last-child {
+    border-bottom: 0;
+  }
+  .card-cta-strip {
+    grid-template-columns: 1fr;
+  }
+  .card-cta-strip a {
+    white-space: normal;
+  }
+}
