@@ -1402,3 +1402,166 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     font-size: clamp(2.6rem, 11vw, 4rem) !important;
   }
 }
+
+
+/* Sprint 6A.90 / Build 0094 capacity repair */
+.stuwmeer-image-section .image-overlay-text,
+.metafoor-left .image-overlay-text {
+  max-width: 820px !important;
+}
+.stuwmeer-block a,
+.source-note a,
+.myth-grid2 a {
+  color: var(--primary, #1f6f68) !important;
+  text-decoration: none;
+  font-weight: 850;
+}
+.mini-chart .mini-bar-row,
+.scale-row {
+  display: grid !important;
+  grid-template-columns: minmax(10rem, 1fr) 5.5rem minmax(7rem, 1fr) !important;
+  gap: .35rem !important;
+  align-items: center !important;
+}
+.mini-chart .mini-bar-row i,
+.scale-track {
+  align-self: center !important;
+  margin-top: 0 !important;
+}
+.capacity-94-grid {
+  max-width: 1180px;
+  display: grid;
+  grid-template-columns: minmax(320px, .9fr) minmax(360px, 1.1fr);
+  grid-template-areas:
+    "chain enough"
+    "scenario scenario";
+  gap: 1rem;
+}
+.capacity-card {
+  background: #fff;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 24px;
+  padding: 1.15rem;
+  box-shadow: 0 8px 26px rgba(0,0,0,.045);
+}
+.chain-card94 { grid-area: chain; }
+.enough-card94 { grid-area: enough; }
+.scenario-94 { grid-area: scenario; }
+.small-muted {
+  color: var(--muted, #5c6873);
+  margin-top: -.3rem;
+}
+.process-list94 {
+  list-style: none;
+  margin: 1rem 0;
+  padding: 0;
+  display: grid;
+  gap: .55rem;
+}
+.process-list94 li {
+  display: grid;
+  grid-template-columns: 2.35rem 1fr;
+  gap: .65rem;
+  align-items: center;
+  padding: .65rem .75rem;
+  border: 1px solid var(--line, #ddd);
+  border-radius: 16px;
+  background: #fff;
+}
+.process-list94 .num {
+  width: 1.9rem;
+  height: 1.9rem;
+  display: grid;
+  place-items: center;
+  border-radius: 999px;
+  background: rgba(31,111,104,.10);
+  color: var(--primary, #1f6f68);
+  font-weight: 950;
+}
+.process-list94 strong {
+  display: inline-flex;
+  align-items: center;
+  gap: .32rem;
+}
+.process-list94 small {
+  display: block;
+  color: var(--muted, #5c6873);
+  margin-top: .08rem;
+  line-height: 1.25;
+}
+.info-dot94 {
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 999px;
+  border: 1.5px solid var(--primary, #1f6f68);
+  color: var(--primary, #1f6f68);
+  background: #fff;
+  font-size: .72rem;
+  line-height: 1;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  cursor: help;
+}
+.enough-card94 li {
+  margin: .55rem 0;
+}
+.enough-card94 a,
+.scenario-94 a {
+  color: var(--primary, #1f6f68) !important;
+  font-weight: 850;
+}
+.scenario-94 .scenario-row {
+  grid-template-columns: 11rem 1fr 5.7rem !important;
+}
+.scenario-conclusion {
+  margin-top: 1rem;
+  padding: .85rem 1rem;
+  border-radius: 16px;
+  background: rgba(31,111,104,.08);
+}
+.solution-teaser .button,
+.solution-teaser .button.primary {
+  opacity: 1 !important;
+  background: var(--primary, #1f6f68) !important;
+  color: #fff !important;
+}
+@media(max-width: 950px) {
+  .capacity-94-grid {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "chain"
+      "enough"
+      "scenario";
+  }
+  .scenario-94 .scenario-row,
+  .mini-chart .mini-bar-row,
+  .scale-row {
+    grid-template-columns: 1fr !important;
+  }
+}
+@media print {
+  .tooltip-panel { display: none !important; }
+  .capacity-94-grid,
+  .omvang-grid,
+  .compact-cards.cards.five,
+  .myth-grid2 {
+    display: block !important;
+  }
+  .capacity-card,
+  .dossier-card,
+  .info-card,
+  .myth-grid2 article {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+  }
+  .scenario-row {
+    display: grid !important;
+    grid-template-columns: 10rem 1fr 5rem !important;
+  }
+  .scenario-row i,
+  .mini-bar-row i {
+    display: block !important;
+    min-height: .7rem !important;
+  }
+}
