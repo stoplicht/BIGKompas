@@ -7,9 +7,9 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.90
+Sprint: 6A.91
 6A.89  
-Build: 0094  
+Build: 0095  
 Datum: 20-06-2026  
 
 Canary:

@@ -1565,3 +1565,9 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
     min-height: .7rem !important;
   }
 }
+
+/* Build0095 polish */
+.metafoor-left .section-heading{max-width:950px!important}
+.source-note a{color:var(--primary,#1f6f68)!important;font-weight:850}
+.mini-bar-row,.scale-row{grid-template-columns:15rem 5rem 1fr!important}
+.process-list94 strong,.process-list94 strong .info-dot94{vertical-align:middle}
