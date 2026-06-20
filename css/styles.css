@@ -845,3 +845,149 @@ body[data-page="capaciteitsbeleid"] .site-nav a[data-nav="capaciteitsbeleid"] {
   .stuwmeer-bar-value{text-align:left}
   .capacity-flow div:nth-child(even){display:none}
 }
+
+
+/* Sprint 6A.81 Stuwmeer Redesign */
+.stuwmeer-hero {
+  display: grid;
+  grid-template-columns: minmax(0,1.35fr) minmax(280px,.85fr);
+  gap: 1.5rem;
+  align-items: stretch;
+  padding: clamp(2.4rem,5vw,5rem) clamp(1rem,4vw,4rem);
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.stuwmeer-hero-text {
+  background: linear-gradient(135deg,#fff,#f7f2ea);
+  border: 1px solid var(--line,#ddd);
+  border-radius: 30px;
+  padding: clamp(1.4rem,3vw,2.4rem);
+  box-shadow: 0 10px 34px rgba(0,0,0,.06);
+}
+.stuwmeer-hero h1 { margin-bottom: .65rem; }
+.hero-lead {
+  font-size: clamp(1.2rem,2vw,1.55rem);
+  font-weight: 850;
+  color: var(--primary,#1f6f68);
+}
+.stuwmeer-kpis {
+  display: grid;
+  gap: .85rem;
+}
+.stuwmeer-kpis article,
+.dossier-card,
+.scale-card,
+.scenario-card {
+  background: #fff;
+  border: 1px solid var(--line,#ddd);
+  border-radius: 24px;
+  padding: 1.2rem;
+  box-shadow: 0 8px 26px rgba(0,0,0,.045);
+}
+.stuwmeer-kpis strong {
+  display: block;
+  color: var(--primary,#1f6f68);
+  font-size: clamp(2rem,4vw,3.3rem);
+  line-height: 1;
+}
+.stuwmeer-kpis span { color: var(--muted,#5c6873); font-weight: 650; }
+.stuwmeer-section .section-heading { max-width: 940px; margin-left: 0; }
+.stuwmeer-metafoor-img {
+  display: block;
+  width: min(940px,100%);
+  margin: 1.35rem 0 .7rem;
+  border-radius: 24px;
+  box-shadow: 0 10px 34px rgba(0,0,0,.10);
+}
+.dossier-split {
+  display: grid;
+  grid-template-columns: repeat(2,minmax(0,1fr));
+  gap: 1rem;
+  margin: 1.3rem 0;
+}
+.dossier-card ul { margin-bottom: 0; }
+.scale-bars,
+.dossier-bars {
+  display: grid;
+  gap: .85rem;
+  margin-top: 1rem;
+}
+.scale-row,
+.dossier-bar-row {
+  display: grid;
+  grid-template-columns: 11rem 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+.dossier-bar-row { grid-template-columns: 12rem 1fr 5.5rem; }
+.scale-label strong,
+.scale-label span,
+.dossier-bar-label strong,
+.dossier-bar-label span { display:block; }
+.scale-label span,
+.dossier-bar-label span { color: var(--muted,#5c6873); font-size:.92rem; }
+.scale-track,
+.dossier-bar-track {
+  height: 1.15rem;
+  background: #eee7dc;
+  border-radius: 999px;
+  overflow: hidden;
+}
+.scale-track span,
+.dossier-bar-track span {
+  display:block;
+  height:100%;
+  border-radius:999px;
+}
+.dossier-bar-value { text-align:right; font-weight:950; }
+.capacity-flow {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr auto 1fr auto 1fr auto 1fr auto 1fr;
+  gap: .55rem;
+  align-items: center;
+  margin: 1.4rem 0;
+}
+.capacity-flow div {
+  background:#fff;
+  border:1px solid var(--line,#ddd);
+  border-radius:18px;
+  padding:.9rem;
+  text-align:center;
+  font-weight:950;
+  box-shadow:0 6px 20px rgba(0,0,0,.035);
+}
+.capacity-flow span { display:block; font-weight:550; color:var(--muted,#5c6873); margin-top:.2rem; }
+.actor-table { margin: 1.3rem 0; }
+.myth-grid,
+.source-grid {
+  display:grid;
+  grid-template-columns: repeat(3,minmax(0,1fr));
+  gap:1rem;
+}
+.myth-grid article {
+  background:#fff;
+  border:1px solid var(--line,#ddd);
+  border-radius:22px;
+  padding:1rem;
+  box-shadow:0 8px 26px rgba(0,0,0,.04);
+}
+.source-grid a {
+  background:#fff;
+  border:1px solid var(--line,#ddd);
+  border-radius:999px;
+  padding:.8rem 1rem;
+  font-weight:850;
+  text-decoration:none;
+  text-align:center;
+}
+.solution-teaser { text-align:left; }
+@media(max-width:950px){
+  .stuwmeer-hero,
+  .dossier-split,
+  .myth-grid,
+  .source-grid { grid-template-columns:1fr; }
+  .capacity-flow { grid-template-columns:1fr; }
+  .capacity-flow div:nth-child(even){ display:none; }
+  .scale-row,.dossier-bar-row{ grid-template-columns:1fr; }
+  .dossier-bar-value{text-align:left;}
+}
