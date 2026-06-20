@@ -7,14 +7,21 @@
 # BIGKompas versiebeheer
 
 Huidige versie: BIGKompas v1.0-beta  
-Sprint: 6A.65  
-Build: 0068  
+Sprint: 6A.66  
+Build: 0069  
 Datum: 18-06-2026  
 
 Canary:
 "Stuwmeergrafiek toont 6500 LOGO-houders tegenover 691 opleidingsplaatsen."
 
 ## Releasegeschiedenis
+
+### 6A.66 — Build 0069
+- Tijdlijn 6.0 gereconstrueerd als uitgebreid beleidsdossier
+- Statuslegenda daadwerkelijk toegepast op tijdlijnitems
+- Inhoud teruggebracht over Wet BIG, capaciteitsramingen, NIVEL, verticale substitutie, veldreacties, EVC en besluitvorming
+- Scope beperkt tot tijdlijn, CSS, versiebeheer en cache-busting
+
 
 ### 6A.65 — Build 0068
 - Tijdlijn 5.0 hersteld als uitgebreid beleidsdossier
