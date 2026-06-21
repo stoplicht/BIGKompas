@@ -11,7 +11,7 @@
   <meta property="og:image" content="assets/social-preview.svg">
   <link rel="canonical" href="https://stoplicht.github.io/BIGKompas/">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="css/styles.css?v=0106">
+  <link rel="stylesheet" href="css/styles.css?v=0107">
 </head>
 <body data-page="home">
 <header class="site-header">
@@ -33,111 +33,122 @@
   </nav>
 </header>
 <main>
-  <!-- Build 0106 home content actually applied -->
-  <!-- Build 0105 Home hero card stacked below intro -->
-  <!-- Build 0102 Home CTA tuned: stuwmeer link moved to dossier core; compare link inline -->
-  <section class="hero home-hero-stack">
-    <div>
-      <p class="eyebrow">Het psychologenstuwmeer zichtbaar gemaakt</p>
-      <h1>Deskundigheid <em class="hero-neq">≠</em> bevoegdheid</h1>
-      <p class="hero-text">Ervaren en deskundige psychologen leveren dagelijks waardevolle zorg, maar blijven formeel beperkt door registratie-, kwaliteits- en bekostigingskaders. Waarom is dat zo? En wat zijn de gevolgen?</p>
-      <div class="hero-actions home-inline-actions">
-        <a class="inline-arrow-link compare-disciplines-link" href="vergelijking.html">
-          <span class="inline-link-icon" aria-hidden="true">⚖</span>
-          <span>Vergelijk de positie van psychologen met andere BIG-geregistreerde disciplines →</span>
-        </a>
+  <!-- Build 0107 home context-first rewrite -->
+
+  <section class="home-intro-shell">
+    <div class="home-intro-grid">
+      <div class="home-intro-copy">
+        <p class="eyebrow">Een vreemde tussenpositie</p>
+        <h1>Duizenden psychologen tussen opleiding en volledige beroepsautonomie</h1>
+        <p class="hero-text">Na afronding van de universitaire opleiding psychologie zijn veel psychologen inhoudelijk klaar voor de praktijk, maar beschikken zij nog niet over een BIG-registratie. Daardoor kunnen zij niet volledig zelfstandig werken, terwijl zij ondertussen ervaring en deskundigheid blijven opbouwen.</p>
+        <div class="home-quick-links">
+          <a href="big.html"><span class="quick-icon">🛡</span><strong>Waarom is BIG-registratie zo belangrijk?</strong><small>Lees meer → Wet BIG</small></a>
+          <a href="vergelijking.html#autonomie"><span class="quick-icon">🔒</span><strong>Welke beperkingen zijn er zonder BIG?</strong><small>Bekijk verschillen → Vergelijk disciplines</small></a>
+          <a href="probleem.html#capaciteit"><span class="quick-icon">⏱</span><strong>Waarom duurt dit soms zo lang?</strong><small>Begrijp het systeem → Probleemanalyse</small></a>
+          <a href="#stakeholders"><span class="quick-icon">🗺</span><strong>Eerste keer hier?</strong><small>Lees de uitleg → perspectieven</small></a>
+        </div>
+      </div>
+      <aside class="home-signpost-card">
+        <div class="signpost"><span class="signpost-board primary">BIG-registratie</span><span class="signpost-board muted">Tussenpositie</span></div>
+        <p>De website legt uit hoe deze tussenpositie ontstaat, waarom zij lang kan duren en welke gevolgen zij heeft voor verschillende partijen.</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section home-explain-section" id="waarom-big">
+    <div class="home-explain-grid">
+      <article class="home-large-card">
+        <p class="eyebrow">Context</p>
+        <h2>Waarom is een BIG-registratie belangrijk geworden?</h2>
+        <p>In Nederland regelt de Wet BIG wie bepaalde gezondheidszorgberoepen zelfstandig mag uitoefenen. Voor veel psychologische functies betekent dit dat een BIG-registratie nodig is om zelfstandig verantwoordelijkheid te dragen, als regiebehandelaar op te treden of verrichtingen declarabel te maken binnen de zorg.</p>
+        <p>De BIG-registratie werkt daarmee niet alleen als kwaliteits- en veiligheidssysteem, maar ook als toegangspoort tot functies, bevoegdheden, bekostiging en loopbaanmogelijkheden.</p>
+        <a class="inline-arrow-link" href="big.html">Lees meer over de Wet BIG →</a>
+      </article>
+      <article class="home-side-note">
+        <span class="note-icon">⚖</span>
+        <p><strong>Belangrijk onderscheid:</strong> zonder BIG kun je wel psycholoog zijn en deskundigheid opbouwen, maar ben je vaak niet bevoegd om het beroep volledig zelfstandig uit te oefenen binnen de spelregels van de zorg.</p>
+      </article>
+    </div>
+
+    <div class="home-limit-card">
+      <h3>Beperkingen zonder BIG-registratie</h3>
+      <div class="limit-grid">
+        <a href="arbeidsmarkt.html" class="limit-item"><span>👤</span><strong>Minder kans op de arbeidsmarkt</strong><p>Veel functies en vacatures vereisen een BIG-registratie.</p></a>
+        <a href="vergelijking.html#autonomie" class="limit-item"><span>🔐</span><strong>Niet volledig zelfstandig bevoegd</strong><p>Diagnostiek, indicatie of eindverantwoordelijkheid zijn vaak formeel beperkt.</p></a>
+        <a href="vergelijking.html#supervisie" class="limit-item"><span>👥</span><strong>Supervisie of werkbegeleiding</strong><p>Werkzaamheden vallen vaak onder verantwoordelijkheid van een BIG-geregistreerde professional.</p></a>
+        <a href="zpm.html" class="limit-item"><span>📄</span><strong>Geen eigen declaratie</strong><p>Verrichtingen kunnen meestal niet zelfstandig bij zorgverzekeraars worden gedeclareerd.</p></a>
+        <a href="agb.html#regiebehandelaar" class="limit-item"><span>📈</span><strong>Beperkte doorgroei</strong><p>Regiebehandelaarschap of bepaalde GGZ-functies zijn vaak niet mogelijk.</p></a>
       </div>
     </div>
-    <aside class="hero-card hero-card-alt">
-      <div class="card-header"><span>Kernvraag</span><span class="status-dot"></span></div>
-      <div class="metric">
-        <strong>Deskundigheid <em>≠</em> bevoegdheid</strong>
-        <p class="question-line"><em>Hoe kan het dat ervaren psychologen inhoudelijk veel kunnen, maar formeel toch beperkt blijven?</em></p>
-      </div>
-
-      <div class="question-copy-grid">
-        <p>Psychologen zonder BIG-registratie beschikken vaak over een universitaire opleiding, aanvullende scholing en jaren praktijkervaring. Toch kunnen zij in veel functies geen regiebehandelaar zijn, beperkt declareren en minder zelfstandig werken.</p>
-        <p>BIGKompas benadert dit vraagstuk niet primair als een individueel loopbaanprobleem, maar als een stelselvraagstuk. De site onderzoekt hoe opleidingscapaciteit, registratie, bekostiging en arbeidsmarkt samen kunnen leiden tot een langdurige tussenpositie: inhoudelijk inzetbaar, maar formeel beperkt.</p>
-      </div>
-
-      <div class="metric-grid metric-grid-alt">
-        <a class="metric-link metric-tile tile-deskundigheid" href="vergelijking.html#kantelpunt">
-          <span class="metric-icon" aria-hidden="true">🎓</span>
-          <span class="metric-title">Deskundigheid <span class="info-icon" tabindex="0" aria-label="Deskundigheid gaat over kennis, ervaring, scholing en feitelijke bekwaamheid. BIGKompas onderzoekt waarom deze deskundigheid niet altijd samenvalt met formele bevoegdheid." data-tooltip="Deskundigheid gaat over kennis, ervaring, scholing en feitelijke bekwaamheid. BIGKompas onderzoekt waarom deze deskundigheid niet altijd samenvalt met formele bevoegdheid.">i</span></span>
-          <strong>hoog</strong>
-          <small>Kennis, ervaring en opleiding zijn vaak op hoog niveau.</small>
-        </a>
-        <a class="metric-link metric-tile tile-doorstroom" href="probleem.html#capaciteit">
-          <span class="metric-icon" aria-hidden="true">↗</span>
-          <span class="metric-title">Doorstroom <span class="info-icon" tabindex="0" aria-label="Doorstroom verwijst naar de stap van masterpsycholoog naar GZ-opleiding en BIG-registratie. Juist hier ontstaat het stuwmeer." data-tooltip="Doorstroom verwijst naar de stap van masterpsycholoog naar GZ-opleiding en BIG-registratie. Juist hier ontstaat het stuwmeer.">i</span></span>
-          <strong>krap</strong>
-          <small>Beperkte opleidingscapaciteit en lange wachttijd.</small>
-        </a>
-        <a class="metric-link metric-tile tile-autonomie" href="vergelijking.html#autonomie">
-          <span class="metric-icon" aria-hidden="true">🔒</span>
-          <span class="metric-title">Autonomie <span class="info-icon" tabindex="0" aria-label="Autonomie betekent zelfstandig kunnen indiceren, besluiten, rapporteren en verantwoordelijkheid dragen. Zonder BIG is die autonomie vaak formeel beperkter." data-tooltip="Autonomie betekent zelfstandig kunnen indiceren, besluiten, rapporteren en verantwoordelijkheid dragen. Zonder BIG is die autonomie vaak formeel beperkter.">i</span></span>
-          <strong>beperkt</strong>
-          <small>Zelfstandig beslissen en indiceren is vaak niet mogelijk.</small>
-        </a>
-        <a class="metric-link metric-tile tile-regie" href="vergelijking.html#proportionaliteit">
-          <span class="metric-icon" aria-hidden="true">👥</span>
-          <span class="metric-title">Regievoering <span class="info-icon" tabindex="0" aria-label="Regievoering gaat over regiebehandelaarschap en formele verantwoordelijkheid voor samenhang, kwaliteit en continuïteit van behandeling." data-tooltip="Regievoering gaat over regiebehandelaarschap en formele verantwoordelijkheid voor samenhang, kwaliteit en continuïteit van behandeling.">i</span></span>
-          <strong>vaak niet mogelijk</strong>
-          <small>Regiebehandelaarschap is meestal niet toegestaan.</small>
-        </a>
-      </div>
-
-      <div class="card-cta-strip">
-        <span class="inline-link-icon" aria-hidden="true">⚖</span>
-        <p>BIGKompas onderzoekt waarom deze verschillen bestaan en wat de gevolgen zijn voor psychologen, cliënten en de GGZ.</p>
-        <a href="probleem.html">Meer over het stuwmeer en de gevolgen →</a>
-      </div>
-    </aside>
-  </section>
-<section class="section home-dossier-grid">
-    <article class="home-dossier-card">
-      <p class="eyebrow">Kern van het dossier</p>
-      <h2>Niet alleen een individueel loopbaanprobleem, maar een stelselvraagstuk.</h2>
-      <p>Het vraagstuk raakt patiëntveiligheid, arbeidsmarktbeleid, opleidingscapaciteit, zorgfinanciering, wachttijden en de verdeling van verantwoordelijkheden binnen de GGZ.</p>
-      <a class="inline-arrow-link" href="probleem.html">Meer over het stuwmeer en de gevolgen →</a>
-    </article>
-
-    <article class="home-figures-card">
-      <h3>Psychologenstuwmeer in cijfers</h3>
-      <dl>
-        <div><dt>± 6.500</dt><dd>voorraad psychologen zonder BIG</dd></div>
-        <div><dt>1.240</dt><dd>advies opleidingscapaciteit per jaar</dd></div>
-        <div><dt>691</dt><dd>laag scenario instroom per jaar</dd></div>
-        <div><dt>5–9 jaar</dt><dd>indicatieve afbouwtijd</dd></div>
-      </dl>
-    </article>
-
-    <article class="home-impact-card">
-      <p class="eyebrow">Waarom dit ertoe doet</p>
-      <ul>
-        <li><strong>Deskundigheid blijft onbenut</strong><span>Ervaren psychologen kunnen niet altijd doen waar ze voor zijn opgeleid.</span></li>
-        <li><strong>Patiënten wachten langer</strong><span>Capaciteitstekorten kunnen leiden tot wachttijden en minder passende zorg.</span></li>
-        <li><strong>Werkgevers verliezen capaciteit</strong><span>Instroom is beperkt, uitstroom hoog en druk op teams blijft groot.</span></li>
-        <li><strong>Nieuwe afgestudeerden stromen jaarlijks bij</strong><span>Het stuwmeer groeit waarschijnlijk verder als er niets verandert.</span></li>
-      </ul>
-    </article>
   </section>
 
-  <section class="section muted-bg">
+  <section class="section muted-bg home-duration-section">
     <div class="section-heading">
-      <p class="eyebrow">Start hier</p>
-      <h2>Vier vragen die de site beantwoordt</h2>
-      <p>De nieuwe structuur helpt bezoekers stap voor stap: eerst het probleem begrijpen, daarna het stelsel, de routes en de praktische gevolgen.</p>
+      <p class="eyebrow">Omvang en duur</p>
+      <h2>Hoe groot en hoe langdurig kan deze tussenpositie zijn?</h2>
+      <p>Niet elke psycholoog blijft lang in deze situatie. Toch zijn er aanwijzingen dat het om een substantiële groep gaat en dat de wachttijd voor doorstroom naar de GZ-opleiding voor sommige psychologen vele jaren kan duren.</p>
     </div>
-    <div class="cards four">
-      <article class="info-card link-card"><h3>Wat is het psychologenstuwmeer?</h3><p>Hoe kan het dat duizenden psychologen wel deskundig zijn, maar niet kunnen doorstromen naar een BIG-registratie?</p><a href="probleem.html">Verken het stuwmeer →</a></article>
-      <article class="info-card link-card"><h3>Waarom bestaat dit stuwmeer?</h3><p>Welke rol spelen opleidingscapaciteit, regelgeving en bekostiging?</p><a href="probleem.html#capaciteit">Bekijk capaciteit en tijdlijn →</a></article>
-      <article class="info-card link-card"><h3>Wat betekent dit voor patiënten, werkgevers en psychologen?</h3><p>Welke gevolgen heeft dit voor werk, autonomie, ondernemerschap en inzetbaarheid?</p><a href="arbeidsmarkt.html">Bekijk arbeidsmarkt →</a></article>
-      <article class="info-card link-card"><h3>Welke routes kunnen het stuwmeer verkleinen?</h3><p>Welke oplossingen en beleidsopties worden besproken om de doorstroom te verbeteren?</p><a href="oplossingen.html">Bekijk oplossingen →</a></article>
+    <div class="duration-grid">
+      <article><span class="duration-icon">👥</span><strong>± 6.500</strong><p>indicatieve schatting rond 2021 van psychologen die voldeden aan belangrijke vooropleidingseisen, maar nog niet waren doorgestroomd naar een opleidingsplaats.</p><a href="probleem.html#omvang">Zie onderbouwing →</a></article>
+      <article><span class="duration-icon">🎓</span><strong>650</strong><p>beschikbare opleidingsplaatsen in 2026. Dit illustreert dat de jaarlijkse opleidingscapaciteit beperkt blijft ten opzichte van de potentiële groep kandidaten.</p><a href="probleem.html#capaciteit">Bekijk capaciteit →</a></article>
+      <article><span class="duration-icon">📅</span><strong>5–15 jaar</strong><p>zo lang kan de tussenpositie voor sommige psychologen duren, afhankelijk van afstudeermoment, werkplek, selectie en instroommogelijkheid.</p><a href="tijdlijn.html">Bekijk tijdlijn →</a></article>
+      <article><span class="duration-icon">🔁</span><strong>Nieuwe aanwas</strong><p>jaarlijks studeren nieuwe psychologen af. Een deel wil mogelijk doorstromen naar de GZ-opleiding, terwijl het aantal plaatsen begrensd is.</p><a href="probleem.html#duo-instroom">Bekijk jaarlijkse dynamiek →</a></article>
+    </div>
+    <div class="home-context-callout">
+      <p>Voor sommige psychologen duurt deze tussenpositie relatief kort. Anderen werken echter vijf, tien of zelfs vijftien jaar in functies waarin zij inhoudelijk steeds meer expertise opbouwen, maar formeel beperkt blijven in hun mogelijkheden om zelfstandig te indiceren, declareren, regiebehandelaar te zijn of volledig autonoom te functioneren.</p>
+      <p><strong>BIGKompas onderzoekt</strong> hoe deze situatie ontstaat, welke factoren eraan bijdragen dat zij kan voortbestaan en welke gevolgen dit heeft voor psychologen, werkgevers, patiënten en de organisatie van de Nederlandse geestelijke gezondheidszorg.</p>
+    </div>
+  </section>
+
+  <section class="section" id="stakeholders">
+    <div class="section-heading">
+      <p class="eyebrow">Meerdere perspectieven</p>
+      <h2>Wat betekent deze tussenpositie voor verschillende partijen?</h2>
+      <p>Hetzelfde verschijnsel heeft voor iedere partij een andere betekenis. Daarom belicht BIGKompas het vraagstuk vanuit meerdere perspectieven.</p>
+    </div>
+    <div class="stakeholder-grid">
+      <article class="stakeholder-card"><span class="stakeholder-icon">👤</span><h3>Psychologen zonder BIG</h3><ul><li>Minder autonomie en bevoegdheden</li><li>Beperkte loopbaan- en doorgroeimogelijkheden</li><li>Afhankelijk van supervisie en autorisatie</li><li>Financiële en ondernemersbeperkingen</li></ul><a href="vergelijking.html#kantelpunt">Lees verder → Vergelijk disciplines</a></article>
+      <article class="stakeholder-card"><span class="stakeholder-icon">🏢</span><h3>Werkgevers</h3><ul><li>Onbenutte expertise</li><li>Extra supervisielast voor BIG-collega's</li><li>Minder flexibiliteit in taakverdeling</li><li>Moeilijker werven en behouden van personeel</li></ul><a href="arbeidsmarkt.html#onderbenutting">Lees verder → Arbeidsmarkt</a></article>
+      <article class="stakeholder-card"><span class="stakeholder-icon">🧠</span><h3>BIG-psychologen</h3><ul><li>Hogere werkdruk door supervisie en regie</li><li>Schaarste aan regiebehandelaren</li><li>Spanningen in teams over bevoegdheden</li><li>Tegelijk borging van kwaliteit en patiëntveiligheid</li></ul><a href="agb.html#regiebehandelaar">Lees verder → AGB & regie</a></article>
+      <article class="stakeholder-card"><span class="stakeholder-icon">👥</span><h3>Patiënten</h3><ul><li>Minder beschikbare behandelcapaciteit</li><li>Langere wachttijden</li><li>Onduidelijkheid over verantwoordelijkheden</li><li>Deskundigheid wordt mogelijk niet volledig benut</li></ul><a href="arbeidsmarkt.html#wachtlijsten">Lees verder → Arbeidsmarkt & wachttijden</a></article>
+      <article class="stakeholder-card"><span class="stakeholder-icon">⚖</span><h3>Wetgever en beleidsmakers</h3><ul><li>Balans tussen kwaliteit en toegankelijkheid</li><li>Onderbenutting van menselijk kapitaal</li><li>Arbeidsmarktkrapte en politieke druk</li><li>Opleidingscapaciteit en financieringsvraag</li></ul><a href="oplossingen.html#beleid">Lees verder → Oplossingen & beleid</a></article>
+    </div>
+  </section>
+
+  <section class="section muted-bg home-model-section">
+    <div class="home-model-grid">
+      <article class="home-model-intro">
+        <p class="eyebrow">Van verschijnsel naar analyse</p>
+        <h2>Waarom gebruikt BIGKompas later de stuwmeer-metafoor?</h2>
+        <p>Om te begrijpen waarom deze tussenpositie niet vanzelf verdwijnt, kijkt BIGKompas naar de jaarlijkse dynamiek: nieuwe aanwas van afgestudeerde psychologen, beschikbare opleidingsplaatsen, doorstroom naar de GZ-opleiding en uitstroom uit de tussenpositie na BIG-registratie.</p>
+        <p>De stuwmeer-metafoor helpt om deze verhouding zichtbaar te maken, zonder te suggereren dat het gaat om de instroom in de bacheloropleiding psychologie.</p>
+        <a class="button primary" href="probleem.html">Analyseer het probleem →</a>
+      </article>
+      <article class="flow-card">
+        <h3>De analyse in vier stappen</h3>
+        <div class="flow-steps">
+          <a href="probleem.html#duo-instroom"><span>1</span><strong>Nieuwe aanwas</strong><small>afgestudeerde psychologen die mogelijk richting GZ willen</small></a>
+          <a href="probleem.html#capaciteit"><span>2</span><strong>Beschikbare opleidingsplaatsen</strong><small>begrensde capaciteit in de GZ-opleiding</small></a>
+          <a href="routes.html"><span>3</span><strong>Doorstroom naar GZ</strong><small>psychologen die daadwerkelijk kunnen starten</small></a>
+          <a href="big.html"><span>4</span><strong>BIG-registratie</strong><small>uitstroom uit de tussenpositie na afronding</small></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section home-deepen-section">
+    <div class="section-heading"><p class="eyebrow">Verdiep je verder</p><h2>Ga direct naar een deelonderwerp</h2></div>
+    <div class="cards six home-topic-cards">
+      <a class="info-card link-card" href="vergelijking.html"><h3>Vergelijk disciplines</h3><p>Verschillen in opleiding, bevoegdheden en autonomie.</p></a>
+      <a class="info-card link-card" href="probleem.html"><h3>Probleem / analyse</h3><p>Waarom de tussenpositie kan blijven bestaan.</p></a>
+      <a class="info-card link-card" href="tijdlijn.html"><h3>Tijdlijn</h3><p>Ontwikkelingen, besluiten en beleidskeuzes.</p></a>
+      <a class="info-card link-card" href="oplossingen.html"><h3>Oplossingen</h3><p>Scenario's en mogelijke oplossingsrichtingen.</p></a>
+      <a class="info-card link-card" href="routes.html"><h3>Routes & EVC</h3><p>Mogelijke route naar BIG-registratie.</p></a>
+      <a class="info-card link-card" href="bronnen.html"><h3>Bronnen</h3><p>Data, rapporten en verwijzingen.</p></a>
     </div>
   </section>
 </main>
-<footer class="site-footer"><p>BIGKompas — onafhankelijk kennisplatform over het psychologenstuwmeer.</p><p class="release-version">BIGKompas v1.0-beta • Sprint 6A.101 • Build 0106 • 20-06-2026</p></footer>
-<script src="js/script.js?v=0106"></script>
+<footer class="site-footer"><p>BIGKompas — onafhankelijk kennisplatform over psychologen tussen opleiding en BIG-registratie.</p><p class="release-version">BIGKompas v1.0-beta • Sprint 6A.102 • Build 0107 • 20-06-2026</p></footer>
+<script src="js/script.js?v=0107"></script>
 </body>
 </html>
