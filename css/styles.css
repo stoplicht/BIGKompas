@@ -2230,3 +2230,64 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
 .route-finding-grid{display:grid;grid-template-columns:minmax(0,.95fr) minmax(0,1fr) minmax(280px,.65fr);gap:1rem;align-items:stretch}.endpoint-columns{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.endpoint-columns>div{border:1px solid var(--line);border-radius:18px;padding:1rem;background:#fff}.endpoint-columns h3{color:var(--primary)}.endpoint-conclusion{margin:1rem 0 0;padding:1rem;border-radius:16px;background:#f7f4ee;color:#2e3d4a}.question-card{background:linear-gradient(135deg,#fff8ef,#fff)}
 .stakeholder-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem}.stakeholder-icon,.note-icon{display:grid;place-items:center;width:3.1rem;height:3.1rem;border-radius:999px;background:rgba(31,111,104,.10);font-size:1.35rem;color:var(--primary)}.stakeholder-card a,.route-know-card a,.observation-grid a{color:var(--primary);font-weight:850}.deepen-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(280px,.65fr);gap:1rem}
 @media(max-width:1200px){.observation-grid,.route-finding-grid,.stakeholder-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.route-phase-band{grid-template-columns:repeat(2,1fr)}}@media(max-width:860px){.route-hero-grid,.deepen-grid,.endpoint-columns{grid-template-columns:1fr}.observation-grid,.route-finding-grid,.stakeholder-grid{grid-template-columns:1fr}}
+
+
+/* Sprint 6A.104 / Build 0109 — route number visibility fix */
+.route-strip {
+  padding-top: .25rem !important;
+  padding-bottom: 1.25rem !important;
+}
+.route-strip article {
+  position: relative !important;
+  padding-top: 1.35rem !important;
+  overflow: visible !important;
+}
+.route-strip article span {
+  position: static !important;
+  transform: none !important;
+  display: grid !important;
+  place-items: center !important;
+  width: 2.25rem !important;
+  height: 2.25rem !important;
+  margin: 0 auto .85rem auto !important;
+  border-radius: 999px !important;
+  background: var(--primary, #1f6f68) !important;
+  color: #fff !important;
+  font-weight: 950 !important;
+  line-height: 1 !important;
+  box-shadow: none !important;
+}
+.route-strip article:nth-child(n+6):nth-child(-n+8) span {
+  background: #c85f1d !important;
+}
+.route-strip article:nth-child(9) span,
+.route-strip article:nth-child(10) span {
+  background: #6d4aa3 !important;
+}
+.route-strip article:nth-child(11) span {
+  background: var(--primary, #1f6f68) !important;
+}
+.route-strip article strong {
+  display: block;
+  margin-top: .15rem;
+}
+.route-phase-band {
+  align-items: stretch;
+}
+.route-phase-band span {
+  display: block;
+}
+@media print {
+  .route-strip {
+    overflow: visible !important;
+    grid-template-columns: repeat(11, minmax(0, 1fr)) !important;
+  }
+  .route-strip article {
+    break-inside: avoid;
+    min-height: 280px;
+  }
+  .route-strip article span {
+    position: static !important;
+    transform: none !important;
+  }
+}
