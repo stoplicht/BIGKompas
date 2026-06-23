@@ -111,3 +111,41 @@ document.addEventListener('keydown', (event) => {
     document.activeElement?.blur?.();
   }
 });
+
+
+// Sprint 6A.117 / Build 0117 — accessible popovers for explanation icons and scores
+(() => {
+  const overlay = document.querySelector('[data-popover-overlay]');
+  if (!overlay) return;
+
+  const titleEl = overlay.querySelector('#popover-title117');
+  const bodyEl = overlay.querySelector('#popover-body117');
+  const closeBtn = overlay.querySelector('.popover-close117');
+  let lastTrigger = null;
+
+  function openPopover(trigger) {
+    lastTrigger = trigger;
+    titleEl.textContent = trigger.dataset.popoverTitle || 'Toelichting';
+    bodyEl.textContent = trigger.dataset.popoverBody || '';
+    overlay.hidden = false;
+    closeBtn.focus();
+  }
+
+  function closePopover() {
+    overlay.hidden = true;
+    if (lastTrigger) lastTrigger.focus();
+  }
+
+  document.querySelectorAll('[data-popover-title][data-popover-body]').forEach((trigger) => {
+    trigger.addEventListener('click', () => openPopover(trigger));
+  });
+
+  closeBtn.addEventListener('click', closePopover);
+  overlay.addEventListener('click', (event) => {
+    if (event.target === overlay) closePopover();
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && !overlay.hidden) closePopover();
+  });
+})();

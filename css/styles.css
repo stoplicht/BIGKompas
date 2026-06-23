@@ -2920,3 +2920,100 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
     padding: 16px 20px !important;
   }
 }
+
+
+/* Sprint 6A.117 / Build 0117 — clickable info popovers + academic BIG note */
+.info-popover-btn117,
+.score-popover117{
+  cursor:pointer;
+}
+.score-popover117{
+  border:0;
+  background:transparent;
+  color:var(--primary);
+  font:inherit;
+  font-weight:950;
+  padding:.15rem .25rem;
+  border-radius:8px;
+}
+.score-popover117:hover,
+.score-popover117:focus-visible{
+  outline:2px solid rgba(31,111,104,.28);
+  background:#edf7f4;
+}
+.academic-route-note117{
+  margin-top:1rem;
+  padding:1.15rem 1.25rem;
+  border-radius:22px;
+  background:linear-gradient(135deg,#eef7f5,#fff8ef);
+  border:1px solid rgba(31,111,104,.22);
+}
+.academic-route-note117 h3{
+  color:var(--primary-dark);
+}
+.academic-route-note117 p{
+  max-width:940px;
+  color:#385062;
+}
+.academic-route-note117 a{
+  color:var(--primary);
+  font-weight:950;
+}
+.popover-overlay117{
+  position:fixed;
+  inset:0;
+  z-index:99999;
+  display:grid;
+  place-items:center;
+  padding:1rem;
+  background:rgba(23,32,42,.45);
+}
+.popover-overlay117[hidden]{
+  display:none!important;
+}
+.popover-card117{
+  width:min(640px,100%);
+  max-height:min(80vh,720px);
+  overflow:auto;
+  background:#fff;
+  color:var(--ink);
+  border:1px solid var(--line);
+  border-radius:24px;
+  box-shadow:0 32px 90px rgba(0,0,0,.28);
+  padding:1.35rem;
+  position:relative;
+}
+.popover-card117 h2{
+  font-size:clamp(1.45rem,3vw,2.1rem);
+  color:var(--primary-dark);
+  padding-right:2rem;
+}
+.popover-card117 p{
+  color:#385062;
+  font-size:1.05rem;
+  margin-bottom:0;
+}
+.popover-close117{
+  position:absolute;
+  top:.8rem;
+  right:.8rem;
+  display:grid;
+  place-items:center;
+  width:2rem;
+  height:2rem;
+  border:1px solid var(--line);
+  border-radius:999px;
+  background:#fff;
+  font-size:1.4rem;
+  line-height:1;
+  cursor:pointer;
+}
+.info-dot114::after{
+  display:none!important;
+  content:none!important;
+}
+@media print{
+  .popover-overlay117{display:none!important}
+  .score-popover117{border:0!important;background:transparent!important;color:var(--primary)!important;padding:0!important}
+  .academic-route-note117{box-shadow:none!important;break-inside:avoid;page-break-inside:avoid}
+}
