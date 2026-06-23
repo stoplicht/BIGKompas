@@ -2311,3 +2311,143 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
 
 /* Sprint 6A.112 / Build 0112 — Oplossingen top redesign */
 .solutions112{background:var(--bg)}.solution-hero112{display:grid;grid-template-columns:minmax(0,.82fr) minmax(480px,1.18fr);gap:clamp(1.4rem,4vw,3rem);align-items:stretch;padding:clamp(52px,7vw,90px) clamp(20px,5vw,72px);background:radial-gradient(circle at 74% 28%,rgba(31,111,104,.14),transparent 28%),linear-gradient(90deg,#fff 0%,#f7f4ee 55%,#edf7f5 100%)}.solution-hero112 h1{font-size:clamp(3rem,5.8vw,5.7rem);max-width:900px}.solution-hero-claim112{margin-top:1.25rem;padding:1rem 1.1rem;border-left:6px solid var(--primary);background:rgba(255,255,255,.68);border-radius:0 18px 18px 0;color:var(--primary-dark);font-weight:900}.river-card112,.big-question112,.capacity-vs-infra112 article,.route-compare112,.gear-cards112 article,.integrated-route112 article,.yield-grid112 article,.do-nothing-cards112 article,.final-card112{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 10px 30px rgba(23,32,42,.06)}.river-card112{padding:1.2rem;display:grid;gap:1rem}.river-visual112{min-height:320px;border-radius:22px;overflow:hidden;display:grid;grid-template-columns:1.05fr .25fr 1fr;align-items:center;gap:1rem;padding:1.1rem;background:linear-gradient(180deg,rgba(255,255,255,.7),rgba(255,255,255,.15)),radial-gradient(circle at 20% 10%,#d8e6ed,transparent 25%),linear-gradient(135deg,#cbded4,#f5e7c9 46%,#d7eff2);position:relative}.rain112{position:absolute;left:2rem;top:1.2rem;padding:.35rem .7rem;border-radius:999px;background:#e6eef3;color:#355263;font-weight:950;text-transform:uppercase;letter-spacing:.08em;font-size:.75rem}.dam112,.river112{min-height:190px;border-radius:22px;padding:1.1rem;display:flex;flex-direction:column;justify-content:center;text-align:center;box-shadow:0 12px 28px rgba(23,32,42,.12)}.dam112{background:linear-gradient(160deg,#294450,#17202a);color:white}.river112{background:linear-gradient(160deg,#e9fff8,#ffffff);color:var(--primary-dark);border:1px solid rgba(31,111,104,.24)}.dam112 strong,.river112 strong{font-size:1.35rem;line-height:1.05}.dam112 span,.river112 span{font-weight:850;margin-top:.35rem}.dam112 small,.river112 small{margin-top:.55rem;opacity:.8}.river-arrow112{display:grid;place-items:center;width:4rem;height:4rem;margin:0 auto;border-radius:999px;background:var(--primary);color:#fff;font-size:2rem;font-weight:950}.criteria-box112{padding:.2rem .4rem}.criteria-box112 h2{font-size:1.25rem}.criteria-box112 ul{columns:2;list-style:none;padding:0;margin:0}.criteria-box112 li{position:relative;padding-left:1.45rem;margin:.35rem 0;color:#385062;font-weight:750}.criteria-box112 li::before{content:"✓";position:absolute;left:0;color:var(--success);font-weight:950}.solution-kernvraag112{padding-top:54px;padding-bottom:54px}.big-question112{max-width:1120px;margin:0 auto;padding:clamp(1.4rem,4vw,3rem);text-align:center}.big-question112 h2{font-size:clamp(2.1rem,4.2vw,4.2rem);color:var(--primary-dark)}.big-question112 p:not(.eyebrow){max-width:820px;margin:0 auto;color:#385062;font-size:1.12rem}.capacity-vs-infra112{display:grid;grid-template-columns:.82fr 1.18fr;gap:1rem;align-items:stretch}.capacity-vs-infra112 article{padding:1.35rem}.capacity-vs-infra112 .featured112{border-color:rgba(31,111,104,.38);box-shadow:0 18px 44px rgba(31,111,104,.11)}.pill112{display:inline-flex;align-items:center;padding:.35rem .7rem;border-radius:999px;font-size:.78rem;font-weight:950;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.8rem}.pill112.warning{background:#fff1df;color:#a45512}.pill112.success{background:#e7f4ef;color:#14634f}.capacity-vs-infra112 dl{display:grid;gap:.7rem;margin:1rem 0 0}.capacity-vs-infra112 dl div{padding:.8rem;border-radius:16px;background:#f7f4ee}.capacity-vs-infra112 dt{font-weight:950}.capacity-vs-infra112 dd{margin:.2rem 0 0;color:#385062}.solution-insight112{margin-top:1rem;padding:1rem 1.2rem;border-radius:18px;background:#eaf4fb;border:1px solid #c9dced;color:#244867;font-weight:900}.discipline-route-grid112{display:grid;grid-template-columns:1fr 1fr;gap:1rem}.route-compare112{padding:1.2rem}.route-compare112.medical112{border-color:rgba(47,125,82,.25)}.route-compare112.psychology112{border-color:rgba(185,68,60,.25)}.route-chain112{display:flex;flex-wrap:wrap;gap:.55rem;align-items:center;margin:1rem 0}.route-chain112 span{padding:.65rem .75rem;border-radius:14px;background:#f7f4ee;border:1px solid var(--line);font-weight:900;text-align:center}.route-chain112 b{color:var(--primary)}.route-conclusion112{border-radius:16px;padding:.9rem 1rem;margin:0;font-weight:850}.route-conclusion112.good{background:#edf7ee;color:#225f39}.route-conclusion112.bad{background:#fff0ed;color:#8a2e27}.gear-cards112{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:1rem}.gear-cards112 article{padding:1rem;text-align:center}.gear-cards112 span{display:grid;place-items:center;width:3.7rem;height:3.7rem;margin:0 auto .7rem;border-radius:999px;background:rgba(31,111,104,.10);font-size:1.65rem;color:var(--primary)}.gear-cards112 p{color:#385062;font-size:.94rem;margin-bottom:0}.scenario-matrix112{overflow-x:auto}.scenario-matrix112 table{width:100%;border-collapse:collapse}.scenario-matrix112 th,.scenario-matrix112 td{padding:1rem;text-align:left;border-bottom:1px solid var(--line);vertical-align:top}.scenario-matrix112 th{background:#f0ebe2;color:#31424f;font-weight:950}.scenario-matrix112 tr:last-child td{border-bottom:0}.scenario-matrix112 td:nth-child(5),.scenario-matrix112 td:nth-child(6){color:var(--primary);font-weight:950;white-space:nowrap}.solution-scenario112 .section-heading{max-width:900px}.integrated-route112{display:grid;grid-template-columns:1fr auto 1fr auto 1fr auto 1fr auto 1fr;gap:.85rem;align-items:stretch}.integrated-route112 article{padding:1.1rem}.integrated-route112 article span{display:grid;place-items:center;width:2.4rem;height:2.4rem;border-radius:999px;background:var(--primary);color:white;font-weight:950;margin-bottom:.6rem}.integrated-route112 b{align-self:center;color:var(--primary);font-size:1.8rem}.yield-grid112{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:.85rem;margin-top:1rem}.yield-grid112 article{display:flex;align-items:center;gap:.65rem;padding:.9rem 1rem}.yield-grid112 strong{display:grid;place-items:center;width:1.8rem;height:1.8rem;border-radius:999px;background:var(--success);color:white;flex:0 0 auto}.yield-grid112 span{font-weight:850;color:#24423a}.do-nothing-cards112{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1rem}.do-nothing-cards112 article{padding:1.1rem;text-align:center}.do-nothing-cards112 span{display:grid;place-items:center;width:3.8rem;height:3.8rem;margin:0 auto .75rem;border-radius:999px;background:#fff0ed;color:var(--warning);font-size:1.75rem}.do-nothing-cards112 p{color:#385062;margin-bottom:0}.solution-final112{padding-top:40px}.final-card112{padding:clamp(1.5rem,4vw,3rem);background:linear-gradient(135deg,#fff,#eff8f6)}.final-card112 h2{font-size:clamp(2rem,4.1vw,4rem);color:var(--primary-dark);max-width:1180px}.final-card112 p:not(.eyebrow){max-width:920px;color:#385062;font-size:1.08rem}.final-actions112{display:flex;gap:.85rem;flex-wrap:wrap;margin-top:1.4rem}@media(max-width:1250px){.solution-hero112,.capacity-vs-infra112,.discipline-route-grid112{grid-template-columns:1fr}.gear-cards112{grid-template-columns:repeat(3,minmax(0,1fr))}.integrated-route112{grid-template-columns:1fr}.integrated-route112 b{display:none}.yield-grid112,.do-nothing-cards112{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:760px){.river-visual112{grid-template-columns:1fr;min-height:auto}.river-arrow112{transform:rotate(90deg)}.criteria-box112 ul{columns:1}.gear-cards112,.yield-grid112,.do-nothing-cards112{grid-template-columns:1fr}.route-chain112{display:grid;grid-template-columns:1fr}.route-chain112 b{transform:rotate(90deg);justify-self:center}.final-actions112 .button{width:100%}}
+
+
+/* Sprint 6A.113 / Build 0113 — stronger medicine vs psychology infrastructure comparison */
+.infra-compare113 .section-heading{
+  max-width:980px;
+}
+.infra-compare-grid113{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:1.15rem;
+  align-items:start;
+}
+.infra-system-card113{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:0 10px 30px rgba(23,32,42,.06);
+  padding:1.25rem;
+}
+.infra-system-card113.medical113{
+  border-color:rgba(47,125,82,.28);
+}
+.infra-system-card113.psychology113{
+  border-color:rgba(185,68,60,.25);
+}
+.infra-card-head113{
+  display:flex;
+  gap:.85rem;
+  align-items:center;
+  margin-bottom:1rem;
+}
+.infra-icon113{
+  display:grid;
+  place-items:center;
+  width:3.6rem;
+  height:3.6rem;
+  border-radius:999px;
+  background:rgba(31,111,104,.10);
+  color:var(--primary);
+  font-size:1.45rem;
+  font-weight:950;
+  flex:0 0 auto;
+}
+.psychology113 .infra-icon113{
+  background:#fff0ed;
+  color:var(--warning);
+}
+.infra-card-head113 .eyebrow{
+  margin-bottom:.25rem;
+}
+.infra-card-head113 h3{
+  margin-bottom:0;
+}
+.infra-route113{
+  display:grid;
+  gap:.42rem;
+}
+.infra-route113 div{
+  border:1px solid var(--line);
+  border-radius:16px;
+  padding:.75rem .85rem;
+  background:linear-gradient(180deg,#fff,#fbfaf7);
+  text-align:center;
+}
+.infra-route113 strong{
+  display:block;
+  font-size:1.05rem;
+}
+.infra-route113 span{
+  display:block;
+  color:#53606c;
+  font-size:.92rem;
+  margin-top:.1rem;
+}
+.infra-route113 b{
+  text-align:center;
+  color:var(--primary);
+  font-size:1.15rem;
+  line-height:1;
+}
+.psychology113 .infra-route113 b{
+  color:var(--warning);
+}
+.infra-checklist113{
+  list-style:none;
+  padding:0;
+  margin:1rem 0 0;
+  display:grid;
+  gap:.45rem;
+}
+.infra-checklist113 li{
+  position:relative;
+  padding-left:1.7rem;
+  margin:0;
+  color:#2f4c40;
+  font-weight:750;
+}
+.infra-checklist113 li::before{
+  content:"✓";
+  position:absolute;
+  left:0;
+  top:0;
+  color:var(--success);
+  font-weight:950;
+}
+.infra-checklist113.warning li{
+  color:#63352f;
+}
+.infra-checklist113.warning li::before{
+  content:"!";
+  display:grid;
+  place-items:center;
+  width:1.15rem;
+  height:1.15rem;
+  border-radius:999px;
+  background:#fff0ed;
+  color:var(--warning);
+  font-size:.78rem;
+}
+.infra-conclusion113{
+  margin-top:1rem;
+  padding:1.25rem;
+  border-radius:22px;
+  background:linear-gradient(135deg,#eff8f6,#fff8ef);
+  border:1px solid rgba(31,111,104,.22);
+}
+.infra-conclusion113 h3{
+  color:var(--primary-dark);
+}
+.infra-conclusion113 p{
+  max-width:940px;
+  color:#385062;
+}
+.infra-conclusion113 a{
+  color:var(--primary);
+  font-weight:950;
+}
+@media(max-width:980px){
+  .infra-compare-grid113{grid-template-columns:1fr}
+}
