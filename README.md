@@ -1,16 +1,14 @@
 # BIGKompas
 
 Huidige versie: BIGKompas v1.0-beta
-Sprint: 6A.114
-Build: 0114
+Sprint: 6A.115
+Build: 0115
 Datum: 23-06-2026
 
 ## Releasegeschiedenis
 
-### 6A.114 — Build 0114
-- Oplossingen: NIP / beroepsgroep toegevoegd als achtste radertje.
-- Oplossingen: Wetgeving preciezer geduid als gerichte artikel-3-toevoeging in plaats van zware stelselwijziging.
-- Oplossingen: i-hover toelichtingen toegevoegd bij Wetgeving en NIP / beroepsgroep.
-- Oplossingen: nieuw blok 'Wie organiseert de rivier?' toegevoegd met mogelijke rol van het NIP.
-- Oplossingen: scenario C aangescherpt naar 'Gerichte artikel-3-toevoeging + afbakening'.
-- Footer, README en cache-busting bijgewerkt naar Build 0114.
+### 6A.115 — Build 0115
+- Oplossingen: print/PDF-layout aangescherpt.
+- Oplossingen: grote witruimte na de hero verholpen door print-specifieke min-height en page-break overrides.
+- Oplossingen: hero-visual, kaarten en secties compacter gemaakt voor PDF-print.
+- Footer, README en cache-busting bijgewerkt naar Build 0115.

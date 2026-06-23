@@ -2579,3 +2579,149 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
     width:min(26rem,calc(100vw - 32px));
   }
 }
+
+
+/* Sprint 6A.115 / Build 0115 — print/PDF whitespace fix */
+@media print {
+  html, body {
+    background: #fff !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .site-header {
+    position: static !important;
+    display: none !important;
+  }
+
+  .solutions112,
+  main,
+  section,
+  .section,
+  .solution-hero112,
+  .river-card112,
+  .river-visual112,
+  .criteria-box112,
+  .big-question112,
+  .capacity-vs-infra112 article,
+  .infra-system-card113,
+  .solution-gears114,
+  .nip-role114,
+  .solution-scenario112,
+  .solution-final112 {
+    break-before: auto !important;
+    page-break-before: auto !important;
+    break-after: auto !important;
+    page-break-after: auto !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+    min-height: 0 !important;
+  }
+
+  .solution-hero112,
+  .section {
+    padding-top: 28px !important;
+    padding-bottom: 28px !important;
+  }
+
+  .solution-hero112 {
+    display: block !important;
+  }
+
+  .river-card112 {
+    margin-top: 20px !important;
+    padding: 16px !important;
+  }
+
+  .river-visual112 {
+    min-height: 0 !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+    padding: 14px !important;
+  }
+
+  .dam112,
+  .river112 {
+    min-height: 92px !important;
+    padding: 14px !important;
+    box-shadow: none !important;
+  }
+
+  .river-arrow112 {
+    transform: rotate(90deg);
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 1.3rem !important;
+  }
+
+  .criteria-box112 ul {
+    columns: 1 !important;
+  }
+
+  .solution-kernvraag112,
+  .big-question112 {
+    margin-top: 0 !important;
+  }
+
+  .big-question112 {
+    padding: 22px !important;
+  }
+
+  .big-question112 h2,
+  .final-card112 h2 {
+    font-size: 26pt !important;
+  }
+
+  h1 {
+    font-size: 36pt !important;
+  }
+
+  h2 {
+    font-size: 24pt !important;
+  }
+
+  .capacity-vs-infra112,
+  .infra-compare-grid113,
+  .gear-cards112,
+  .gear-cards114,
+  .nip-grid114,
+  .integrated-route112,
+  .yield-grid112,
+  .do-nothing-cards112 {
+    display: block !important;
+  }
+
+  .capacity-vs-infra112 article,
+  .infra-system-card113,
+  .gear-cards112 article,
+  .nip-main114,
+  .nip-tasks114,
+  .integrated-route112 article,
+  .yield-grid112 article,
+  .do-nothing-cards112 article {
+    margin-bottom: 12px !important;
+    box-shadow: none !important;
+  }
+
+  .scenario-matrix112,
+  .table-card {
+    overflow: visible !important;
+  }
+
+  .scenario-matrix112 table {
+    font-size: 9pt !important;
+  }
+
+  .site-footer {
+    display: block !important;
+    padding: 18px 20px !important;
+  }
+
+  .info-dot114::after,
+  .info-icon::after,
+  .info-tip::after {
+    display: none !important;
+    content: none !important;
+  }
+}
