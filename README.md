@@ -1,14 +1,14 @@
 # BIGKompas
 
 Huidige versie: BIGKompas v1.0-beta
-Sprint: 6A.115
-Build: 0115
+Sprint: 6A.116
+Build: 0116
 Datum: 23-06-2026
 
 ## Releasegeschiedenis
 
-### 6A.115 — Build 0115
-- Oplossingen: print/PDF-layout aangescherpt.
-- Oplossingen: grote witruimte na de hero verholpen door print-specifieke min-height en page-break overrides.
-- Oplossingen: hero-visual, kaarten en secties compacter gemaakt voor PDF-print.
-- Footer, README en cache-busting bijgewerkt naar Build 0115.
+### 6A.116 — Build 0116
+- Oplossingen: print/PDF-hero agressiever gecompacteerd zodat intro, visual en criteria beter samen renderen.
+- Oplossingen: scenario C 'BIG na beroepsmaster' haalbaarheid aangepast van 2/5 naar 3/5.
+- Oplossingen: toelichting toegevoegd dat scenario C juridisch relatief beperkt kan zijn, maar organisatorisch/politiek nog afbakening vraagt.
+- Footer, README en cache-busting bijgewerkt naar Build 0116.
