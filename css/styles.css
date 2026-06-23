@@ -2451,3 +2451,131 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
 @media(max-width:980px){
   .infra-compare-grid113{grid-template-columns:1fr}
 }
+
+
+/* Sprint 6A.114 / Build 0114 — NIP role + precise BIG law framing */
+.gear-cards114{
+  grid-template-columns:repeat(4,minmax(0,1fr));
+}
+.gear-cards114 article{
+  position:relative;
+}
+.nip-gear114 span{
+  font-size:.9rem!important;
+  font-weight:950;
+  letter-spacing:.02em;
+}
+.info-dot114{
+  display:inline-grid;
+  place-items:center;
+  width:1.25rem;
+  height:1.25rem;
+  margin-left:.35rem;
+  border-radius:999px;
+  border:1.5px solid var(--primary);
+  background:#fff;
+  color:var(--primary);
+  font-size:.78rem;
+  font-weight:950;
+  line-height:1;
+  cursor:help;
+  vertical-align:middle;
+  position:relative;
+}
+.info-dot114::after{
+  content:attr(data-tooltip);
+  position:absolute;
+  left:50%;
+  bottom:calc(100% + .65rem);
+  transform:translateX(-50%);
+  width:min(28rem,80vw);
+  padding:.85rem .95rem;
+  border-radius:14px;
+  background:#17202a;
+  color:#fff;
+  font-size:.88rem;
+  line-height:1.42;
+  font-weight:600;
+  box-shadow:0 16px 38px rgba(0,0,0,.20);
+  opacity:0;
+  pointer-events:none;
+  z-index:999;
+  text-align:left;
+  text-transform:none;
+  letter-spacing:normal;
+}
+.info-dot114:hover::after,
+.info-dot114:focus::after{
+  opacity:1;
+}
+.nip-role114{
+  background:linear-gradient(180deg,#fff,#f6f4ef);
+}
+.nip-role114 .section-heading{
+  max-width:980px;
+}
+.nip-grid114{
+  display:grid;
+  grid-template-columns:1.1fr .9fr;
+  gap:1rem;
+  align-items:stretch;
+}
+.nip-main114,
+.nip-tasks114,
+.law-precision114{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  box-shadow:0 10px 30px rgba(23,32,42,.06);
+}
+.nip-main114,
+.nip-tasks114{
+  padding:1.35rem;
+}
+.nip-main114 h3,
+.nip-tasks114 h3,
+.law-precision114 h3{
+  color:var(--primary-dark);
+}
+.nip-main114 p,
+.law-precision114 p{
+  color:#385062;
+}
+.nip-main114 ul{
+  margin-bottom:0;
+}
+.task-cloud114{
+  display:flex;
+  flex-wrap:wrap;
+  gap:.65rem;
+  align-content:flex-start;
+}
+.task-cloud114 span{
+  display:inline-flex;
+  padding:.65rem .8rem;
+  border-radius:999px;
+  background:#edf7f4;
+  border:1px solid rgba(31,111,104,.20);
+  color:var(--primary-dark);
+  font-weight:850;
+}
+.law-precision114{
+  margin-top:1rem;
+  padding:1.2rem 1.35rem;
+  border-left:6px solid var(--primary);
+  background:linear-gradient(135deg,#f1faf7,#fff8ef);
+}
+@media(max-width:1100px){
+  .gear-cards114{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nip-grid114{grid-template-columns:1fr}
+}
+@media(max-width:680px){
+  .gear-cards114{grid-template-columns:1fr}
+  .info-dot114::after{
+    position:fixed;
+    left:50%;
+    top:14vh;
+    bottom:auto;
+    width:min(26rem,calc(100vw - 32px));
+  }
+}
