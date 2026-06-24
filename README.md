@@ -1,17 +1,14 @@
 # BIGKompas
 
 Huidige versie: BIGKompas v1.0-beta
-Sprint: 6A.125
-Build: 0125
+Sprint: 6A.126
+Build: 0126
 Datum: 24-06-2026
 
 ## Releasegeschiedenis
 
-### 6A.125 — Build 0125
-- Herstelbuild op basis van de laatste goede volledige versie 0121.
-- Vergelijk disciplines: alleen de stuwmeer-specifieke sectie 'Het kantelpunt' verwijderd.
-- Vergelijk disciplines: overige inhoud hersteld en behouden.
-- Vergelijk disciplines: route-sectie behouden en genummerd als 6; verder lezen als 7.
-- Vergelijk disciplines: Stuwmeer toegevoegd aan 'Verder lezen'.
-- Stuwmeer/probleem.html: sectie 'Het kantelpunt' toegevoegd met kaarten en werkthese.
-- Footer, README en cache-busting bijgewerkt naar Build 0125.
+### 6A.126 — Build 0126
+- Vergelijk disciplines volledig herbouwd in plaats van met kwetsbare knip/verplaats-regels.
+- HBO-BIG, WO-BIG, afwijking psychologie, psychologiedisciplines, NIP-kader en verder-lezen-sectie staan weer expliciet in vergelijking.html.
+- Stuwmeer-specifiek kantelpunt blijft uit Vergelijk disciplines en hoort op probleem.html.
+- Menu, footer, README en cache-busting bijgewerkt naar Build 0126.
