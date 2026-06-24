@@ -3099,3 +3099,195 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
   .compare-grid118 > .table-card{break-inside:auto!important;page-break-inside:auto!important;overflow:visible!important}
   .detail-table119{overflow:visible!important}
 }
+
+
+/* Sprint 6A.120 / Build 0120 — design polish for Vergelijk disciplines */
+.compare120-placeholder{display:none}
+
+/* tighter, more editorial hero */
+.compare119 .compare-hero118{
+  grid-template-columns:1.05fr .75fr;
+  padding-top:clamp(44px,5vw,68px);
+  padding-bottom:clamp(40px,5vw,64px);
+}
+.compare119 .compare-hero118 h1{
+  letter-spacing:-.045em;
+}
+.compare119 .compare-principles118{
+  display:block;
+  padding:0;
+  border-radius:16px;
+  box-shadow:0 8px 22px rgba(23,32,42,.045);
+}
+.compare119 .compare-principles118 article{
+  display:grid;
+  grid-template-columns:56px 1fr;
+  column-gap:1rem;
+  align-items:center;
+  text-align:left;
+  border-right:0;
+  border-bottom:1px solid var(--line);
+  padding:1rem 1.15rem;
+}
+.compare119 .compare-principles118 article:last-child{
+  border-bottom:0;
+}
+.compare119 .compare-principles118 span{
+  width:44px;
+  height:44px;
+  margin:0;
+  font-size:1.15rem;
+}
+.compare119 .compare-principles118 h2{
+  margin:0 0 .2rem;
+  font-size:1.05rem;
+}
+.compare119 .compare-principles118 p{
+  margin:0;
+}
+
+/* less balloon-like cards */
+.compare119 .table-card,
+.compare119 .two-cards119 article,
+.compare119 .insight-grid118 article,
+.compare119 .route-cards118 article,
+.compare119 .compare-links118 article,
+.compare119 .callout119{
+  border-radius:14px;
+  box-shadow:0 6px 18px rgba(23,32,42,.045);
+}
+.compare119 .compare-table118,
+.compare119 .detail-table119{
+  border-radius:14px;
+}
+
+/* section label breathing room inside table cards */
+.compare119 .section-label-inside119{
+  padding-top:.45rem!important;
+  margin-bottom:.75rem!important;
+}
+
+/* compact tables, more report-like */
+.compare119 table th,
+.compare119 table td{
+  line-height:1.42;
+}
+.compare119 .compare-table118 th,
+.compare119 .compare-table118 td{
+  padding:.65rem .75rem;
+}
+.compare119 .detail-table119 th,
+.compare119 .detail-table119 td{
+  padding:.72rem .78rem;
+}
+.compare119 .compare-table118 h2{
+  margin-bottom:.85rem;
+}
+
+/* distinct semantic callouts */
+.compare119 .callout119{
+  border-left-width:5px;
+}
+.compare119 .callout-question120{
+  background:linear-gradient(135deg,#fff8ed,#fff);
+  border-left-color:#d98127;
+}
+.compare119 .callout-observation120{
+  background:linear-gradient(135deg,#f3f7fb,#fff);
+  border-left-color:#54738a;
+}
+.compare119 .callout-thesis120{
+  background:linear-gradient(135deg,#eef8f5,#fff);
+  border-left-color:var(--primary);
+}
+.compare119 .key-insight120{
+  background:linear-gradient(135deg,#eef8f5,#fff8ef)!important;
+  border-left:5px solid var(--primary);
+}
+
+/* stronger route visualization */
+.compare119 .route-snapshot120 .route-cards118{
+  gap:1rem;
+}
+.compare119 .route-snapshot120 .route-cards118 article{
+  padding:1.25rem;
+  border-radius:14px;
+}
+.compare119 .route-snapshot120 .route-line118{
+  gap:.25rem;
+  margin:1.05rem 0 .9rem;
+}
+.compare119 .route-snapshot120 .route-line118 span{
+  border-radius:12px;
+  padding:.72rem .85rem;
+  background:#eaf6f3;
+  border:1px solid rgba(31,111,104,.14);
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.6);
+}
+.compare119 .route-snapshot120 .route-line118 b{
+  font-size:1.2rem;
+  padding:0 .15rem;
+  color:var(--primary);
+}
+.compare119 .route-snapshot120 .psych118 .route-line118 span{
+  background:#f0eafd;
+  border-color:rgba(93,60,150,.15);
+}
+
+/* CTAs more knowledge-platform-like */
+.compare119 .compare-links118 article{
+  border-radius:14px;
+  border-left:5px solid var(--primary);
+}
+.compare119 .compare-links118 .button{
+  margin-top:.5rem;
+}
+
+/* reduce visual heaviness of the long psychology table section */
+.compare119 #psychologiepositie{
+  background:#f1ede5;
+}
+.compare119 #psychologiepositie .section-heading p{
+  max-width:820px;
+}
+.compare119 #psychologiepositie .table-card{
+  box-shadow:none;
+}
+.compare119 #psychologiepositie .callout119{
+  margin-top:1rem;
+}
+
+/* print-specific polish */
+@media print{
+  .compare119 .compare-principles118 article{
+    padding:10px 12px!important;
+    grid-template-columns:42px 1fr!important;
+  }
+  .compare119 .compare-principles118 span{
+    width:34px!important;height:34px!important;font-size:12pt!important;
+  }
+  .compare119 .section-label-inside119{
+    padding-top:10px!important;
+    margin-bottom:8px!important;
+  }
+  .compare119 .compare-table118 th,
+  .compare119 .compare-table118 td,
+  .compare119 .detail-table119 th,
+  .compare119 .detail-table119 td{
+    padding:7px 8px!important;
+    line-height:1.32!important;
+  }
+  .compare119 .table-card,
+  .compare119 .two-cards119 article,
+  .compare119 .insight-grid118 article,
+  .compare119 .route-cards118 article,
+  .compare119 .compare-links118 article,
+  .compare119 .callout119{
+    border-radius:10px!important;
+    box-shadow:none!important;
+  }
+  .compare119 .route-snapshot120 .route-line118 span{
+    padding:6px 8px!important;
+    border-radius:8px!important;
+  }
+}

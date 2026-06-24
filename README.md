@@ -1,15 +1,18 @@
 # BIGKompas
 
 Huidige versie: BIGKompas v1.0-beta
-Sprint: 6A.119
-Build: 0119
+Sprint: 6A.120
+Build: 0120
 Datum: 24-06-2026
 
 ## Releasegeschiedenis
 
-### 6A.119 — Build 0119
-- Vergelijk disciplines: kopnummering bij secties 2 en 3 binnen de kaarten gecorrigeerd zodat nummers niet buiten het kader vallen.
-- Vergelijk disciplines: oorspronkelijke context hersteld: doel van de vergelijking, formeel doel/praktijkgevolg, psychologiedisciplines, kantelpunt en werkthese.
-- Arbeidsmarkt: resterende inhoud uit de oude Vergelijk disciplines-pagina toegevoegd: arbeidsmarktpositie, autonomie in werkprocessen, negatieve consequenties, proportionaliteit, kernbegrippen, LOGO/EVC en oplossingsrichtingen.
-- Vergelijk disciplines blijft scanbaar, maar verwijst expliciet naar Arbeidsmarkt en Beroepsvorming voor verdieping.
-- Footer, README en cache-busting bijgewerkt naar Build 0119.
+### 6A.120 — Build 0120
+- Vergelijk disciplines: CMS-achtige tekst vervangen door publieksgerichte formulering.
+- Vergelijk disciplines: hero-intro compacter en editorialer gemaakt.
+- Vergelijk disciplines: minder zware card-styling, kleinere radius en subtielere schaduw.
+- Vergelijk disciplines: callouts visueel onderscheiden als vraag, observatie, werkthese en kerninzicht.
+- Vergelijk disciplines: tabellen compacter en rustiger gemaakt.
+- Vergelijk disciplines: routevisualisatie sterker vormgegeven.
+- Vergelijk disciplines: CTA-teksten inhoudelijker gemaakt.
+- Footer, README en cache-busting bijgewerkt naar Build 0120.
