@@ -3875,3 +3875,82 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
     line-height:1.32!important;
   }
 }
+
+
+/* Sprint 6A.127 / Build 0127 — zichtbaar kantelpunt op Stuwmeer */
+.stuw-kantelpunt127{
+  background:#fff;
+  padding:clamp(52px,5vw,82px) clamp(20px,5vw,72px);
+}
+.stuw-kantelpunt-inner127{
+  max-width:1160px;
+  margin:0 auto;
+}
+.stuw-kantelpunt127 h2{
+  max-width:980px;
+  font-size:clamp(2.5rem,4.2vw,4.8rem);
+  line-height:1.04;
+  letter-spacing:-.04em;
+}
+.stuw-kantelpunt127 .lead127{
+  max-width:980px;
+  color:#667280;
+  font-size:clamp(1.1rem,1.45vw,1.45rem);
+  line-height:1.55;
+}
+.stuw-kantelpunt-cards127{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:1rem;
+  margin:clamp(1.2rem,2vw,2rem) 0 1.1rem;
+}
+.stuw-kantelpunt-cards127 article{
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:22px;
+  padding:1.35rem 1.45rem;
+  box-shadow:0 10px 26px rgba(23,32,42,.045);
+}
+.stuw-kantelpunt-cards127 h3{
+  font-size:clamp(1.3rem,2vw,1.8rem);
+  margin-bottom:.75rem;
+}
+.stuw-kantelpunt-cards127 li{
+  margin:.45rem 0;
+}
+.stuw-thesis127{
+  background:linear-gradient(135deg,#eef8f5,#fff8ef);
+  border:1px solid var(--line);
+  border-left:7px solid var(--primary);
+  border-radius:22px;
+  padding:1.25rem 1.45rem;
+}
+.stuw-thesis127 h3{
+  color:var(--primary-dark);
+  margin-bottom:.45rem;
+}
+.stuw-thesis127 p{
+  margin-bottom:0;
+  color:#385062;
+}
+@media(max-width:800px){
+  .stuw-kantelpunt-cards127{
+    grid-template-columns:1fr;
+  }
+}
+@media print{
+  .stuw-kantelpunt127{
+    padding:24px!important;
+    background:#fff!important;
+  }
+  .stuw-kantelpunt-cards127{
+    display:block!important;
+  }
+  .stuw-kantelpunt-cards127 article,
+  .stuw-thesis127{
+    box-shadow:none!important;
+    margin-bottom:12px!important;
+    break-inside:avoid;
+    page-break-inside:avoid;
+  }
+}
