@@ -1,18 +1,16 @@
 # BIGKompas
 
 Huidige versie: BIGKompas v1.0-beta
-Sprint: 6A.120
-Build: 0120
+Sprint: 6A.121
+Build: 0121
 Datum: 24-06-2026
 
 ## Releasegeschiedenis
 
-### 6A.120 — Build 0120
-- Vergelijk disciplines: CMS-achtige tekst vervangen door publieksgerichte formulering.
-- Vergelijk disciplines: hero-intro compacter en editorialer gemaakt.
-- Vergelijk disciplines: minder zware card-styling, kleinere radius en subtielere schaduw.
-- Vergelijk disciplines: callouts visueel onderscheiden als vraag, observatie, werkthese en kerninzicht.
-- Vergelijk disciplines: tabellen compacter en rustiger gemaakt.
-- Vergelijk disciplines: routevisualisatie sterker vormgegeven.
-- Vergelijk disciplines: CTA-teksten inhoudelijker gemaakt.
-- Footer, README en cache-busting bijgewerkt naar Build 0120.
+### 6A.121 — Build 0121
+- Vergelijk disciplines: hero opnieuw ontworpen met compactere samenvattingskaarten.
+- Vergelijk disciplines: tekstuele framing aangescherpt naar opleiding, praktijkleren, registratie en bevoegdheid.
+- Vergelijk disciplines: NIP als professionele kwaliteitslaag prominenter toegevoegd.
+- Vergelijk disciplines: routeblokken sterker als trajecten vormgegeven.
+- Vergelijk disciplines: onderaan vervangen door drie 'Verder lezen'-kaarten voor Arbeidsmarkt, Beroepsvorming en Oplossingen.
+- Footer, README en cache-busting bijgewerkt naar Build 0121.
