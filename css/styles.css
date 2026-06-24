@@ -4054,3 +4054,13 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
     page-break-inside:avoid;
   }
 }
+
+/* Sprint 6A.131 — Internationaal tab */
+.table-wrap{overflow-x:auto;background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:0 10px 30px rgba(23,32,42,.05)}
+.table-wrap table{width:100%;border-collapse:collapse;min-width:820px}
+.table-wrap th,.table-wrap td{padding:1rem;text-align:left;vertical-align:top;border-bottom:1px solid var(--line)}
+.table-wrap th{background:#f0ebe2;color:#31424f;font-weight:950}
+.table-wrap tr:last-child td{border-bottom:0}
+.table-wrap td:first-child{font-weight:900;color:#17202a;min-width:210px}
+.table-wrap td:not(:first-child){color:#385062}
+@media(max-width:760px){.table-wrap th,.table-wrap td{padding:.75rem;font-size:.92rem}}
