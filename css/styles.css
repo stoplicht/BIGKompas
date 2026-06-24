@@ -3051,3 +3051,51 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
 .score-grid118{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.score118{font-size:1.6rem;color:var(--primary);font-weight:950}
 @media(max-width:1200px){.compare-hero118,.compare-grid118,.compare-links118{grid-template-columns:1fr}.compare-principles118,.insight-grid118,.route-cards118,.market-grid118,.score-grid118{grid-template-columns:1fr 1fr}}
 @media(max-width:720px){.compare-principles118,.insight-grid118,.route-cards118,.market-grid118,.score-grid118{grid-template-columns:1fr}.compare-principles118 article{border-right:0;border-bottom:1px solid var(--line)}.compare-principles118 article:last-child{border-bottom:0}}
+
+
+/* Sprint 6A.119 / Build 0119 — restore depth + fix section labels */
+.compare119 .intro119{padding-top:48px}
+.compare119 .hero-text.small{font-size:1rem;margin-top:.4rem}
+.callout119{
+  margin:1rem 0 1.4rem;
+  padding:1rem 1.15rem;
+  border-radius:18px;
+  background:linear-gradient(135deg,#eff8f6,#fff8ef);
+  border:1px solid var(--line);
+  border-left:6px solid var(--accent,#d77c24);
+  color:#385062;
+}
+.callout119 h3{margin-top:0;color:var(--primary-dark)}
+.two-cards119{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:1rem}
+.two-cards119 article{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.15rem;box-shadow:0 10px 30px rgba(23,32,42,.06)}
+.detail-table119{overflow-x:auto}
+.detail-table119 table{width:100%;border-collapse:collapse}
+.detail-table119 th,.detail-table119 td{padding:.95rem;border-bottom:1px solid var(--line);vertical-align:top}
+.detail-table119 th{background:#f0ebe2;text-align:left;font-weight:950}
+.detail-table119 tr:last-child td{border-bottom:0}
+.section-label-inside119{
+  position:static!important;
+  display:block!important;
+  margin:0 0 .5rem!important;
+  padding:0!important;
+  transform:none!important;
+}
+.compare-grid118 > .table-card{
+  overflow:visible;
+  padding-top:1.15rem;
+}
+.compare-table118 h2{
+  margin-top:0!important;
+  font-size:clamp(1.7rem,2.8vw,2.6rem);
+}
+.compare-table118{
+  border-top:1px solid var(--line);
+}
+@media(max-width:980px){
+  .two-cards119{grid-template-columns:1fr}
+}
+@media print{
+  .section-label-inside119{position:static!important;margin-bottom:6px!important}
+  .compare-grid118 > .table-card{break-inside:auto!important;page-break-inside:auto!important;overflow:visible!important}
+  .detail-table119{overflow:visible!important}
+}
