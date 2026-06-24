@@ -3017,3 +3017,37 @@ body[data-page="home"] .hero-card-alt .metric strong { font-size: clamp(2rem, 4v
   .score-popover117{border:0!important;background:transparent!important;color:var(--primary)!important;padding:0!important}
   .academic-route-note117{box-shadow:none!important;break-inside:avoid;page-break-inside:avoid}
 }
+
+
+/* Sprint 6A.118 / Build 0118 — disciplines, beroepsvorming, arbeidsmarkt */
+.compare118 .hero-actions{display:flex;gap:.8rem;flex-wrap:wrap;margin-top:1.25rem}
+.compare-hero118{display:grid;grid-template-columns:1fr .9fr;gap:1.5rem;padding:clamp(48px,6vw,80px) clamp(20px,5vw,72px);background:linear-gradient(135deg,#fff,#f1ede4);align-items:center}
+.compare-hero118 h1{font-size:clamp(2.8rem,5vw,5rem)}
+.compare-principles118{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1rem;box-shadow:0 10px 30px rgba(23,32,42,.06)}
+.compare-principles118 article{text-align:center;border-right:1px solid var(--line);padding:.8rem}
+.compare-principles118 article:last-child{border-right:0}
+.compare-principles118 span{display:grid;place-items:center;width:3.4rem;height:3.4rem;margin:0 auto .5rem;border-radius:999px;background:#edf7f4;font-size:1.5rem}
+.compare-principles118 h2{font-size:1rem}
+.compare-principles118 p{font-size:.92rem;color:#385062}
+.compare-grid118{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.compare-table118{overflow:auto}
+.compare-table118 table,.summary-table118 table{width:100%;border-collapse:collapse}
+.compare-table118 th,.compare-table118 td,.summary-table118 th,.summary-table118 td{padding:.8rem;border-bottom:1px solid var(--line);vertical-align:top}
+.compare-table118 th,.summary-table118 th{background:#f0ebe2;font-weight:950;text-align:left}
+.compare-table118 td:nth-child(3),.compare-table118 td:nth-child(4),.compare-table118 td:nth-child(5),.summary-table118 td:not(:first-child){text-align:center;color:var(--primary);font-weight:950}
+.compare-table118 .psych-row118 td:nth-child(3){color:#b9443c}
+.mini-insight118,.purple-insight118{margin-top:1rem;border-radius:18px;padding:1rem;font-weight:850}
+.mini-insight118{background:#edf7ee;color:#225f39}.purple-insight118{background:#f4efff;color:#513382}
+.insight-grid118{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;margin-top:1rem}
+.insight-grid118 article,.route-cards118 article,.market-grid118 article,.score-grid118 article{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem;box-shadow:0 10px 30px rgba(23,32,42,.06)}
+.insight-grid118 .key118{background:linear-gradient(135deg,#eff8f6,#fff8ef)}
+.route-cards118{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.route-line118{display:flex;gap:.45rem;flex-wrap:wrap;align-items:center;margin:1rem 0}
+.route-line118 span{padding:.55rem .65rem;border-radius:999px;background:#edf7f4;font-weight:900}.route-line118 b{color:var(--primary)}
+.route-cards118 .psych118 span{background:#f4efff;color:#513382}
+.compare-links118{display:grid;grid-template-columns:1fr 1fr;gap:1rem}
+.compare-links118 article{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:1.3rem}
+.market-grid118{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem}
+.score-grid118{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem}.score118{font-size:1.6rem;color:var(--primary);font-weight:950}
+@media(max-width:1200px){.compare-hero118,.compare-grid118,.compare-links118{grid-template-columns:1fr}.compare-principles118,.insight-grid118,.route-cards118,.market-grid118,.score-grid118{grid-template-columns:1fr 1fr}}
+@media(max-width:720px){.compare-principles118,.insight-grid118,.route-cards118,.market-grid118,.score-grid118{grid-template-columns:1fr}.compare-principles118 article{border-right:0;border-bottom:1px solid var(--line)}.compare-principles118 article:last-child{border-bottom:0}}
