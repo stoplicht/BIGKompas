@@ -14,3 +14,10 @@ Datum: 23-06-2026
 - Oplossingen: popover toegevoegd bij haalbaarheidsscore scenario C.
 - Oplossingen: korte verwijzing toegevoegd naar bredere vergelijking van academische BIG-beroepen, inclusief apotheker.
 - Footer, README en cache-busting bijgewerkt naar Build 0117.
+
+
+Sprint 6A.118 gepland:
+- Vergelijk disciplines vernieuwen
+- Arbeidsmarkt uitbreiden
+- Beroepsvorming toevoegen
+- Menu harmoniseren
